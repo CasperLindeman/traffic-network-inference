@@ -1,0 +1,67 @@
+[experiment]
+id = "single_four_to_four_ensemble_analysis"
+name = "Single four-to-four junction ensemble method comparison"
+section_label = "subsubsec:single_four_to_four_method_comparison"
+settings_table_label = "tab:four_to_four_method_settings"
+results_table_label = "tab:four_to_four_method_comparison"
+sources = [
+    "run.jl",
+    "../common/four_to_four_method_core.jl",
+]
+
+[setup]
+comparison_type = "short-runtime screening on one fixed synthetic data set"
+random_seed = 42
+parameter_space = "z"
+prior = "z ~ N(0,I_12)"
+turning_entries = 16
+noise_model = "physical clipped noise with peak sigma 0.03"
+warmup_pass = true
+
+[method_settings.enis]
+particles = 600
+proposal = "prior"
+weights = "likelihood weights"
+
+[method_settings.eks]
+ensemble_members = 144
+update_steps = 3
+
+[method_settings.esmda]
+ensemble_members = 96
+assimilation_steps = 6
+alpha_n = 6
+
+[results.enis]
+runtime_seconds = 30.85
+turning_rmse = 0.1830
+predictive_rmse = 0.0184
+mean_90_interval_width = 0.0000
+coverage_count = 0
+coverage_total = 16
+ess = 1.0
+largest_weight = 1.0
+
+[results.eks]
+runtime_seconds = 29.58
+turning_rmse = 0.1213
+predictive_rmse = 0.0171
+mean_90_interval_width = 0.4148
+coverage_count = 15
+coverage_total = 16
+
+[results.esmda]
+runtime_seconds = 33.97
+turning_rmse = 0.0641
+predictive_rmse = 0.0070
+mean_90_interval_width = 0.1495
+coverage_count = 13
+coverage_total = 16
+
+[reference_check.nuts]
+average_logdensity_gradient_seconds = 0.27
+included_in_table = false
+reason = "too expensive for the short-runtime ensemble screening"
+
+[outputs]
+method_comparison = "outputs/method_comparison.tsv"

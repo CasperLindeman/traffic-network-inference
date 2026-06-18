@@ -1,0 +1,7 @@
+contrast	alternative	type	mean_difference	median_difference	w_plus	raw_p	holm_p
+neither_vs_both	neither > both	planned	0.0506504366	0.05887216545	443	4.991889e-07	1.9967556e-06
+source_vs_both	source > both	planned	0.03176242704	0.0265459747	436	1.619569957e-06	4.858709872e-06
+target_vs_both	target > both	planned	0.005726625421	0.0047860958	273	0.2080649491	0.2080649491
+source_vs_target	source > target	exploratory	0.02603580162	0.02458792615	462	4.656612873e-09	2.328306437e-08
+neither_vs_target	neither > target	exploratory	0.04492381118	0.04655207735	465	9.313225746e-10	5.587935448e-09
+neither_vs_source	neither > source	exploratory	0.01888800956	0.02542914795	408	6.16684556e-05	0.0001233369112

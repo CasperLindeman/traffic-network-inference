@@ -1,0 +1,34 @@
+[experiment]
+id = "two_to_two_junction"
+name = "Two-to-two junction"
+section_label = "subsubsec:two_to_two_junction"
+figure_label = "fig:two_to_two_posterior"
+table_label = "tab:two_to_two_results"
+sources = ["run.jl", "inference.jl", "plots.jl"]
+
+[setup]
+method = "EnIS"
+particles = 1000
+random_seed = 42
+noise_sigma = 0.03
+simulation_horizon_s = 300
+observation_start_s = 15
+observation_interval_s = 15
+observations_per_sensor = 20
+total_observations = 80
+prior = "alpha_11, alpha_21 iid Beta(3,3)"
+
+[reference]
+theta = [0.68, 0.42]
+alpha_11 = 0.68
+alpha_21 = 0.42
+
+[posterior]
+mean_theta = [0.6710, 0.4224]
+median_theta = [0.6654, 0.4218]
+ci_90_alpha_11 = [0.5491, 0.8126]
+ci_90_alpha_21 = [0.2626, 0.5693]
+ess = 14.3
+
+[figure]
+path = "figures/two_to_two_turning_fractions_posterior.png"

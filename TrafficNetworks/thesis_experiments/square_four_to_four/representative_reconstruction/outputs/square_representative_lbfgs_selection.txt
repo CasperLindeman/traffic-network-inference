@@ -1,0 +1,13 @@
+horizon_minutes	5.0
+observation_count	720
+selected_junction	1
+selected_junction_label	J1 (top-left)
+mean_abs_errors	0.12902925	0.10656120	0.10389639	0.11100984
+representative_roads	9,24,14,20,18,23
+road_id	observed	map_rmse	esmda_rmse	display_score
+9	true	0.03252602	0.07878790	0.07878790
+24	true	0.03656816	0.06481800	0.06481800
+14	true	0.01207092	0.03989796	0.03989796
+20	false	0.02541013	0.09898188	0.09898188
+18	false	0.08294251	0.04899012	0.08294251
+23	false	0.07423834	0.07742840	0.07742840

@@ -1,0 +1,2 @@
+method_label	n	mean_best_loss	median_best_loss	std_best_loss	min_best_loss	max_best_loss	mean_fit_rmse	mean_turning_rmse	mean_final_state_rmse_all	mean_solve_seconds
+L-BFGS 600s	5	139.05464150	137.37831827	6.68338774	132.62734099	150.14114781	0.00095441	0.09935385	0.06629618	600.35279999

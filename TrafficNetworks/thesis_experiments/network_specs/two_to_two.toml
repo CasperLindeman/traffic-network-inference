@@ -1,0 +1,101 @@
+name = "two_to_two"
+
+[simulation]
+cfl = 0.5
+control_step_seconds = 15
+horizon_minutes = 5.0
+
+[discretization]
+mode = "blocks"
+basis_length_km = 0.25
+cells_per_block = 6
+
+[observations]
+road_ids = [1, 2, 3, 4]
+paired_cell_fractions = [0.85, 0.85, 0.20, 0.20]
+
+[[roads]]
+id = 1
+label = "Incoming road 1"
+blocks = 3
+speed_limit = 70
+[roads.profile]
+type = "piecewise"
+default = 0.26
+scale = "blocks"
+segments = [
+    [0.00, 0.30, 0.20],
+    [0.30, 0.65, 0.28],
+    [0.65, 1.00, 0.46],
+]
+
+[[roads]]
+id = 2
+label = "Incoming road 2"
+blocks = 3
+speed_limit = 60
+[roads.profile]
+type = "piecewise"
+default = 0.20
+scale = "blocks"
+segments = [
+    [0.00, 0.25, 0.16],
+    [0.25, 0.60, 0.22],
+    [0.60, 1.00, 0.36],
+]
+
+[[roads]]
+id = 3
+label = "Outgoing road 3"
+blocks = 3
+speed_limit = 50
+[roads.profile]
+type = "piecewise"
+default = 0.15
+scale = "blocks"
+segments = [
+    [0.00, 0.28, 0.26],
+    [0.28, 0.60, 0.18],
+    [0.60, 1.00, 0.12],
+]
+
+[[roads]]
+id = 4
+label = "Outgoing road 4"
+blocks = 3
+speed_limit = 70
+[roads.profile]
+type = "piecewise"
+default = 0.08
+scale = "blocks"
+segments = [
+    [0.00, 0.28, 0.12],
+    [0.28, 0.60, 0.09],
+    [0.60, 1.00, 0.07],
+]
+
+[[junctions]]
+incoming = [1, 2]
+outgoing = [3, 4]
+
+[[boundaries]]
+road_id = 1
+[boundaries.signal]
+type = "gaussian"
+base = 0.100
+pulses_minutes = [
+    [0.090, 0.55, 0.14],
+    [0.085, 1.65, 0.22],
+    [0.070, 3.10, 0.30],
+]
+
+[[boundaries]]
+road_id = 2
+[boundaries.signal]
+type = "gaussian"
+base = 0.060
+pulses_minutes = [
+    [0.060, 0.90, 0.18],
+    [0.075, 2.20, 0.24],
+    [0.050, 3.40, 0.28],
+]

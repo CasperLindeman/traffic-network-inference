@@ -1,0 +1,142 @@
+name = "single_four_to_four"
+
+[simulation]
+cfl = 0.5
+control_step_seconds = 10
+horizon_minutes = 4.0
+
+[discretization]
+mode = "lengths"
+n_cells = 24
+
+[observations]
+road_ids = [5, 6, 7, 8]
+cell_ids = [8, 17]
+
+[[roads]]
+id = 1
+label = "Incoming road 1"
+length_km = 0.5
+speed_limit = 50
+[roads.profile]
+type = "gaussian_sum"
+base = 0.28
+peaks = [[0.30, 24.0, 0.16], [0.16, 70.0, 0.72]]
+
+[[roads]]
+id = 2
+label = "Incoming road 2"
+length_km = 0.5
+speed_limit = 50
+[roads.profile]
+type = "gaussian_sum"
+base = 0.24
+peaks = [[0.24, 18.0, 0.30], [0.18, 40.0, 0.84]]
+
+[[roads]]
+id = 3
+label = "Incoming road 3"
+length_km = 0.5
+speed_limit = 40
+[roads.profile]
+type = "gaussian_sum"
+base = 0.34
+peaks = [[0.27, 16.0, 0.60], [0.15, 65.0, 0.18]]
+
+[[roads]]
+id = 4
+label = "Incoming road 4"
+length_km = 0.5
+speed_limit = 40
+[roads.profile]
+type = "gaussian_sum"
+base = 0.30
+peaks = [[0.23, 14.0, 0.76], [0.16, 34.0, 0.36]]
+
+[[roads]]
+id = 5
+label = "Outgoing road 5"
+length_km = 0.5
+speed_limit = 50
+[roads.profile]
+type = "gaussian_sum"
+base = 0.12
+peaks = [[0.18, 24.0, 0.22], [0.08, 42.0, 0.72]]
+
+[[roads]]
+id = 6
+label = "Outgoing road 6"
+length_km = 0.5
+speed_limit = 50
+[roads.profile]
+type = "gaussian_sum"
+base = 0.15
+peaks = [[0.16, 18.0, 0.44], [0.07, 58.0, 0.86]]
+
+[[roads]]
+id = 7
+label = "Outgoing road 7"
+length_km = 0.5
+speed_limit = 40
+[roads.profile]
+type = "gaussian_sum"
+base = 0.18
+peaks = [[0.20, 16.0, 0.62], [0.09, 36.0, 0.22]]
+
+[[roads]]
+id = 8
+label = "Outgoing road 8"
+length_km = 0.5
+speed_limit = 40
+[roads.profile]
+type = "gaussian_sum"
+base = 0.13
+peaks = [[0.18, 20.0, 0.78], [0.10, 28.0, 0.36]]
+
+[[junctions]]
+incoming = [1, 2, 3, 4]
+outgoing = [5, 6, 7, 8]
+
+[[boundaries]]
+road_id = 1
+[boundaries.signal]
+type = "gaussian"
+base = 0.080
+pulses_minutes = [
+    [0.130, 0.5, 0.14],
+    [0.105, 1.7, 0.22],
+    [0.070, 3.0, 0.32],
+]
+
+[[boundaries]]
+road_id = 2
+[boundaries.signal]
+type = "gaussian"
+base = 0.070
+pulses_minutes = [
+    [0.100, 1.0, 0.18],
+    [0.145, 2.3, 0.24],
+    [0.075, 3.4, 0.26],
+]
+
+[[boundaries]]
+road_id = 3
+[boundaries.signal]
+type = "gaussian"
+base = 0.090
+pulses_minutes = [
+    [0.110, 0.8, 0.16],
+    [0.130, 2.0, 0.28],
+    [0.065, 3.2, 0.34],
+]
+
+[[boundaries]]
+road_id = 4
+[boundaries.signal]
+type = "gaussian"
+base = 0.060
+pulses_minutes = [
+    [0.120, 1.5, 0.20],
+    [0.150, 2.8, 0.24],
+    [0.060, 3.7, 0.18],
+]

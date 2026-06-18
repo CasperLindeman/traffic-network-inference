@@ -1,0 +1,68 @@
+[experiment]
+id = "square_four_to_four_representative_reconstruction"
+name = "Square four-to-four network representative reconstruction"
+table_label = "tab:square_representative_reconstruction"
+figure_labels = [
+    "fig:square_representative_final_state",
+    "fig:square_representative_turning_junction",
+]
+sources = [
+    "run.jl",
+    "plots.jl",
+    "sources/reconstruction_figures.jl",
+]
+
+[setup]
+scenario_count = 1
+horizon_minutes = 5.0
+horizon_factor = 2
+observation_count = 720
+observation_multiplier = 2.5
+noise_seed = 1
+peak_noise_sigma = 0.08
+sigma_floor_fraction = 0.03
+prior_scale = 1.25
+
+[methods.map_lbfgs]
+optimizer = "Optim.jl L-BFGS"
+requested_budget_seconds = 300
+solve_seconds = 100.5829999
+iterations = 277
+converged = false
+
+[methods.esmda]
+ensemble_members = 192
+assimilation_steps = 6
+solve_seconds = 25.3668155
+
+[results.map_lbfgs]
+turning_rmse = 0.1441470357
+predictive_rmse = 0.01105855005
+final_state_rmse_all = 0.0310735902
+final_state_rmse_observed = 0.02317694208
+final_state_rmse_unobserved = 0.03492592306
+
+[results.esmda]
+turning_rmse = 0.1413963752
+predictive_rmse = 0.0235704846
+final_state_rmse_all = 0.04425477752
+final_state_rmse_observed = 0.04000558382
+final_state_rmse_unobserved = 0.0465937741
+
+[selection]
+selected_junction = 1
+selected_junction_label = "J1 (top-left)"
+representative_roads = [9, 24, 14, 20, 18, 23]
+
+[outputs]
+metrics = "outputs/square_representative_lbfgs_metrics.tsv"
+optimizer = "outputs/square_representative_lbfgs_optimizer.tsv"
+road_errors = "outputs/square_representative_lbfgs_road_errors.tsv"
+selection = "outputs/square_representative_lbfgs_selection.txt"
+config = "outputs/square_representative_lbfgs_config.txt"
+
+[figures.final_state]
+path = "figures/square_representative_final_state.png"
+
+[figures.turning_junction]
+path = "figures/square_representative_turning_junction.png"

@@ -1,0 +1,11 @@
+experiment = square multi-scenario representative reconstruction with L-BFGS MAP
+source = sources/reconstruction_figures.jl
+horizon_minutes = 5.0
+noise_seed = 1
+peak_noise_sigma = 0.08
+floor_fraction = 0.03
+prior_scale = 1.25
+esmda = 192x6
+map_optimizer = Optim.jl L-BFGS
+map_time_limit_seconds = 300.0
+note = neighbor output only; thesis figures are not overwritten

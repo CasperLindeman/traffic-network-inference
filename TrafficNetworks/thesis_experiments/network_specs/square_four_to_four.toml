@@ -1,0 +1,334 @@
+name = "square_four_to_four"
+
+[simulation]
+cfl = 0.5
+control_step_seconds = 15
+horizon_minutes = 2.0
+
+[discretization]
+mode = "lengths"
+n_cells = 14
+
+[observations]
+road_ids = [2, 9, 14, 4, 7, 15, 17, 21, 24]
+n_sensors = 4
+
+[road_groups]
+external_incoming = [1, 2, 5, 6, 9, 10, 13, 14]
+external_outgoing = [3, 4, 7, 8, 11, 12, 15, 16]
+connectors = [17, 18, 19, 20, 21, 22, 23, 24]
+observed_incoming = [2, 9, 14]
+observed_outgoing = [4, 7, 15]
+observed_internal = [17, 21, 24]
+
+[[roads]]
+id = 1
+label = "Road 1: J1 external in A"
+length_km = 0.45
+speed_limit = 50
+[roads.profile]
+type = "piecewise"
+default = 0.16
+segments = [[0.00, 0.22, 0.72], [0.22, 0.46, 0.34], [0.46, 0.70, 0.12], [0.70, 1.00, 0.58]]
+
+[[roads]]
+id = 2
+label = "Road 2: J1 external in B"
+length_km = 0.45
+speed_limit = 40
+[roads.profile]
+type = "piecewise"
+default = 0.18
+segments = [[0.00, 0.18, 0.28], [0.18, 0.48, 0.66], [0.48, 0.76, 0.20], [0.76, 1.00, 0.54]]
+
+[[roads]]
+id = 3
+label = "Road 3: J1 external out A"
+length_km = 0.45
+speed_limit = 50
+[roads.profile]
+type = "piecewise"
+default = 0.12
+segments = [[0.00, 0.26, 0.44], [0.26, 0.56, 0.18], [0.56, 0.80, 0.08], [0.80, 1.00, 0.30]]
+
+[[roads]]
+id = 4
+label = "Road 4: J1 external out B"
+length_km = 0.45
+speed_limit = 40
+[roads.profile]
+type = "piecewise"
+default = 0.10
+segments = [[0.00, 0.20, 0.18], [0.20, 0.42, 0.46], [0.42, 0.74, 0.12], [0.74, 1.00, 0.34]]
+
+[[roads]]
+id = 5
+label = "Road 5: J2 external in A"
+length_km = 0.45
+speed_limit = 40
+[roads.profile]
+type = "piecewise"
+default = 0.14
+segments = [[0.00, 0.24, 0.68], [0.24, 0.52, 0.30], [0.52, 0.78, 0.14], [0.78, 1.00, 0.50]]
+
+[[roads]]
+id = 6
+label = "Road 6: J2 external in B"
+length_km = 0.45
+speed_limit = 50
+[roads.profile]
+type = "piecewise"
+default = 0.16
+segments = [[0.00, 0.22, 0.24], [0.22, 0.44, 0.60], [0.44, 0.72, 0.18], [0.72, 1.00, 0.52]]
+
+[[roads]]
+id = 7
+label = "Road 7: J2 external out A"
+length_km = 0.45
+speed_limit = 40
+[roads.profile]
+type = "piecewise"
+default = 0.11
+segments = [[0.00, 0.18, 0.42], [0.18, 0.48, 0.16], [0.48, 0.72, 0.06], [0.72, 1.00, 0.28]]
+
+[[roads]]
+id = 8
+label = "Road 8: J2 external out B"
+length_km = 0.45
+speed_limit = 50
+[roads.profile]
+type = "piecewise"
+default = 0.10
+segments = [[0.00, 0.30, 0.20], [0.30, 0.56, 0.40], [0.56, 0.80, 0.10], [0.80, 1.00, 0.32]]
+
+[[roads]]
+id = 9
+label = "Road 9: J3 external in A"
+length_km = 0.45
+speed_limit = 50
+[roads.profile]
+type = "piecewise"
+default = 0.15
+segments = [[0.00, 0.20, 0.70], [0.20, 0.46, 0.36], [0.46, 0.70, 0.14], [0.70, 1.00, 0.60]]
+
+[[roads]]
+id = 10
+label = "Road 10: J3 external in B"
+length_km = 0.45
+speed_limit = 40
+[roads.profile]
+type = "piecewise"
+default = 0.18
+segments = [[0.00, 0.18, 0.26], [0.18, 0.50, 0.62], [0.50, 0.74, 0.18], [0.74, 1.00, 0.48]]
+
+[[roads]]
+id = 11
+label = "Road 11: J3 external out A"
+length_km = 0.45
+speed_limit = 50
+[roads.profile]
+type = "piecewise"
+default = 0.12
+segments = [[0.00, 0.22, 0.40], [0.22, 0.48, 0.18], [0.48, 0.78, 0.08], [0.78, 1.00, 0.26]]
+
+[[roads]]
+id = 12
+label = "Road 12: J3 external out B"
+length_km = 0.45
+speed_limit = 40
+[roads.profile]
+type = "piecewise"
+default = 0.10
+segments = [[0.00, 0.28, 0.16], [0.28, 0.54, 0.38], [0.54, 0.76, 0.12], [0.76, 1.00, 0.30]]
+
+[[roads]]
+id = 13
+label = "Road 13: J4 external in A"
+length_km = 0.45
+speed_limit = 40
+[roads.profile]
+type = "piecewise"
+default = 0.16
+segments = [[0.00, 0.22, 0.66], [0.22, 0.44, 0.30], [0.44, 0.72, 0.12], [0.72, 1.00, 0.56]]
+
+[[roads]]
+id = 14
+label = "Road 14: J4 external in B"
+length_km = 0.45
+speed_limit = 50
+[roads.profile]
+type = "piecewise"
+default = 0.16
+segments = [[0.00, 0.18, 0.22], [0.18, 0.46, 0.64], [0.46, 0.70, 0.16], [0.70, 1.00, 0.46]]
+
+[[roads]]
+id = 15
+label = "Road 15: J4 external out A"
+length_km = 0.45
+speed_limit = 40
+[roads.profile]
+type = "piecewise"
+default = 0.12
+segments = [[0.00, 0.24, 0.38], [0.24, 0.54, 0.14], [0.54, 0.78, 0.06], [0.78, 1.00, 0.28]]
+
+[[roads]]
+id = 16
+label = "Road 16: J4 external out B"
+length_km = 0.45
+speed_limit = 50
+[roads.profile]
+type = "piecewise"
+default = 0.10
+segments = [[0.00, 0.20, 0.20], [0.20, 0.44, 0.42], [0.44, 0.74, 0.10], [0.74, 1.00, 0.34]]
+
+[[roads]]
+id = 17
+label = "Road 17: J1 -> J2"
+length_km = 0.30
+speed_limit = 45
+[roads.profile]
+type = "piecewise"
+default = 0.08
+segments = [[0.00, 0.25, 0.30], [0.25, 0.52, 0.58], [0.52, 0.78, 0.14], [0.78, 1.00, 0.24]]
+
+[[roads]]
+id = 18
+label = "Road 18: J2 -> J1"
+length_km = 0.30
+speed_limit = 45
+[roads.profile]
+type = "piecewise"
+default = 0.08
+segments = [[0.00, 0.24, 0.22], [0.24, 0.48, 0.50], [0.48, 0.76, 0.16], [0.76, 1.00, 0.28]]
+
+[[roads]]
+id = 19
+label = "Road 19: J1 -> J3"
+length_km = 0.35
+speed_limit = 35
+[roads.profile]
+type = "piecewise"
+default = 0.10
+segments = [[0.00, 0.22, 0.24], [0.22, 0.50, 0.54], [0.50, 0.78, 0.18], [0.78, 1.00, 0.30]]
+
+[[roads]]
+id = 20
+label = "Road 20: J3 -> J1"
+length_km = 0.35
+speed_limit = 35
+[roads.profile]
+type = "piecewise"
+default = 0.10
+segments = [[0.00, 0.20, 0.28], [0.20, 0.46, 0.56], [0.46, 0.74, 0.16], [0.74, 1.00, 0.22]]
+
+[[roads]]
+id = 21
+label = "Road 21: J2 -> J4"
+length_km = 0.35
+speed_limit = 35
+[roads.profile]
+type = "piecewise"
+default = 0.08
+segments = [[0.00, 0.26, 0.26], [0.26, 0.52, 0.52], [0.52, 0.78, 0.18], [0.78, 1.00, 0.24]]
+
+[[roads]]
+id = 22
+label = "Road 22: J4 -> J2"
+length_km = 0.35
+speed_limit = 35
+[roads.profile]
+type = "piecewise"
+default = 0.08
+segments = [[0.00, 0.24, 0.18], [0.24, 0.48, 0.54], [0.48, 0.76, 0.14], [0.76, 1.00, 0.30]]
+
+[[roads]]
+id = 23
+label = "Road 23: J3 -> J4"
+length_km = 0.30
+speed_limit = 45
+[roads.profile]
+type = "piecewise"
+default = 0.09
+segments = [[0.00, 0.22, 0.22], [0.22, 0.54, 0.56], [0.54, 0.78, 0.18], [0.78, 1.00, 0.28]]
+
+[[roads]]
+id = 24
+label = "Road 24: J4 -> J3"
+length_km = 0.30
+speed_limit = 45
+[roads.profile]
+type = "piecewise"
+default = 0.09
+segments = [[0.00, 0.20, 0.26], [0.20, 0.46, 0.50], [0.46, 0.74, 0.16], [0.74, 1.00, 0.24]]
+
+[[junctions]]
+incoming = [1, 2, 18, 20]
+outgoing = [3, 4, 17, 19]
+
+[[junctions]]
+incoming = [5, 6, 17, 22]
+outgoing = [7, 8, 18, 21]
+
+[[junctions]]
+incoming = [9, 10, 19, 24]
+outgoing = [11, 12, 20, 23]
+
+[[junctions]]
+incoming = [13, 14, 21, 23]
+outgoing = [15, 16, 22, 24]
+
+[[boundaries]]
+road_id = 1
+[boundaries.signal]
+type = "piecewise"
+default = 0.05
+segments_minutes = [[0.00, 0.45, 0.23], [0.45, 0.90, 0.07], [0.90, 1.35, 0.21], [1.35, 2.00, 0.09]]
+
+[[boundaries]]
+road_id = 2
+[boundaries.signal]
+type = "piecewise"
+default = 0.04
+segments_minutes = [[0.00, 0.35, 0.08], [0.35, 0.80, 0.22], [0.80, 1.40, 0.06], [1.40, 2.00, 0.20]]
+
+[[boundaries]]
+road_id = 5
+[boundaries.signal]
+type = "piecewise"
+default = 0.05
+segments_minutes = [[0.00, 0.50, 0.21], [0.50, 1.05, 0.09], [1.05, 1.55, 0.24], [1.55, 2.00, 0.07]]
+
+[[boundaries]]
+road_id = 6
+[boundaries.signal]
+type = "piecewise"
+default = 0.05
+segments_minutes = [[0.00, 0.55, 0.07], [0.55, 1.10, 0.24], [1.10, 1.55, 0.08], [1.55, 2.00, 0.19]]
+
+[[boundaries]]
+road_id = 9
+[boundaries.signal]
+type = "piecewise"
+default = 0.05
+segments_minutes = [[0.00, 0.40, 0.24], [0.40, 0.95, 0.10], [0.95, 1.45, 0.19], [1.45, 2.00, 0.06]]
+
+[[boundaries]]
+road_id = 10
+[boundaries.signal]
+type = "piecewise"
+default = 0.04
+segments_minutes = [[0.00, 0.45, 0.09], [0.45, 1.05, 0.23], [1.05, 1.55, 0.05], [1.55, 2.00, 0.21]]
+
+[[boundaries]]
+road_id = 13
+[boundaries.signal]
+type = "piecewise"
+default = 0.05
+segments_minutes = [[0.00, 0.50, 0.22], [0.50, 1.00, 0.06], [1.00, 1.45, 0.20], [1.45, 2.00, 0.10]]
+
+[[boundaries]]
+road_id = 14
+[boundaries.signal]
+type = "piecewise"
+default = 0.04
+segments_minutes = [[0.00, 0.55, 0.06], [0.55, 1.05, 0.21], [1.05, 1.50, 0.07], [1.50, 2.00, 0.23]]

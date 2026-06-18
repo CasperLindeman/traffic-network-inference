@@ -1,0 +1,13 @@
+Square single-scenario MAP-vs-MSE objective comparison with L-BFGS
+seed = 1
+peak_noise_sigma = 0.0800
+sigma_floor_fraction = 0.1500
+prior_scale = 1.2500
+time_limit_seconds = 300.0
+restart_seeds = 0,1,2,3,4
+init_scale = 0.8000
+optimizer = Optim.jl LBFGS
+
+Saved outputs:
+C:\Skole\V26\masteroppgave\github_code_master_thesis\TrafficNetworks\thesis_experiments\square_four_to_four\map_solver_calibration\objective_choice\sources\..\outputs\objective_lbfgs_restart_metrics.tsv
+C:\Skole\V26\masteroppgave\github_code_master_thesis\TrafficNetworks\thesis_experiments\square_four_to_four\map_solver_calibration\objective_choice\sources\..\outputs\objective_lbfgs_summary_metrics.tsv

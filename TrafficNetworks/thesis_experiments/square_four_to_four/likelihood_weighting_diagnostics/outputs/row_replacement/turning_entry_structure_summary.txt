@@ -1,0 +1,124 @@
+Square four-to-four turning-outlier structure diagnostic
+======================================================
+Regime: likelihood_floor_12x
+Scenarios: 12
+Horizon factor: 1
+Observation count: 3456
+Observation multiplier: 12.00
+ESMDA ensemble x iterations: 192 x 6
+Observation clip fraction mean/max: 0.000000 / 0.000000
+
+Correlation checks
+------------------
+entry corr(abs_error, normalized_sensitivity): 0.0922
+entry corr(abs_error, direct_observed_count): -0.1311
+entry corr(abs_error, downstream_observation_distance): 0.0309
+row corr(row_tv_error, row_normalized_observation_signal): 0.7453
+row corr(row_tv_error, source_observed): -0.1793
+Top 5 row misses with unobserved source roads: 4 / 5
+Top 5 row misses where dominant target changed: 5 / 5
+
+Terminology
+-----------
+Source road = the incoming road where traffic comes from before the junction.
+Target road = the outgoing road traffic enters after taking that turn.
+target observed means the outgoing road is observed; it does not mean the source road is observed.
+Row TV error = half the sum of absolute errors in one source road's four outgoing fractions.
+Row TV error is the traffic mass that would need to be moved between target roads to fix the row.
+
+Worst whole-row/source-road split errors
+----------------------------------------
+J1 row 1 TV=0.5553 L1=1.1105 max_entry=0.4674 source=road 1 observed=false observed_targets=[2,3] dominant=3->1 under=3 over=1 row_signal=0.756 pair_under_over=2.2
+  true      [0.100,0.120,0.500,0.280]
+  posterior [0.567,0.208,0.054,0.171]
+  error     [0.467,0.088,-0.446,-0.109]
+J1 row 4 TV=0.4677 L1=0.9355 max_entry=0.3104 source=road 20 observed=false observed_targets=[2,3] dominant=2->1 under=2 over=4 row_signal=0.507 pair_under_over=1.65
+  true      [0.200,0.460,0.240,0.100]
+  posterior [0.425,0.150,0.083,0.343]
+  error     [0.225,-0.310,-0.157,0.243]
+J1 row 2 TV=0.4566 L1=0.9132 max_entry=0.3704 source=road 2 observed=true observed_targets=[2,3] dominant=4->1 under=4 over=1 row_signal=0.303 pair_under_over=1.69
+  true      [0.080,0.180,0.220,0.520]
+  posterior [0.450,0.266,0.051,0.232]
+  error     [0.370,0.086,-0.169,-0.288]
+J3 row 2 TV=0.3704 L1=0.7408 max_entry=0.3369 source=road 10 observed=false observed_targets=[] dominant=4->1 under=4 over=1 row_signal=0.0297 pair_under_over=2.47e-06
+  true      [0.100,0.220,0.180,0.500]
+  posterior [0.437,0.121,0.213,0.229]
+  error     [0.337,-0.099,0.033,-0.271]
+J4 row 1 TV=0.3481 L1=0.6962 max_entry=0.3481 source=road 13 observed=false observed_targets=[1,4] dominant=3->2 under=3 over=2 row_signal=0.233 pair_under_over=1.09
+  true      [0.120,0.160,0.540,0.180]
+  posterior [0.158,0.402,0.192,0.248]
+  error     [0.038,0.242,-0.348,0.068]
+J2 row 1 TV=0.3211 L1=0.6423 max_entry=0.3211 source=road 5 observed=false observed_targets=[1,4] dominant=4->1 under=4 over=1 row_signal=0.188 pair_under_over=1.12
+  true      [0.180,0.080,0.160,0.580]
+  posterior [0.370,0.161,0.210,0.259]
+  error     [0.190,0.081,0.050,-0.321]
+J2 row 2 TV=0.3037 L1=0.6074 max_entry=0.2856 source=road 6 observed=false observed_targets=[1,4] dominant=3->4 under=3 over=2 row_signal=0.123 pair_under_over=3.06e-06
+  true      [0.140,0.100,0.560,0.200]
+  posterior [0.122,0.290,0.274,0.313]
+  error     [-0.018,0.190,-0.286,0.113]
+J2 row 3 TV=0.2898 L1=0.5795 max_entry=0.2898 source=road 17 observed=true observed_targets=[1,4] dominant=1->4 under=1 over=3 row_signal=0.197 pair_under_over=0.58
+  true      [0.480,0.200,0.080,0.240]
+  posterior [0.190,0.272,0.263,0.275]
+  error     [-0.290,0.072,0.183,0.035]
+
+Entry-level visual-threshold check: abs_error > 0.30
+------------------------------------------------
+Entries above threshold: 7
+  source road unobserved: 6 / 7
+  target road unobserved: 4 / 7
+  neither source nor target observed: 3 / 7
+  no downstream observed road: 3 / 7
+J1 P11   abs=0.4674 truth=0.1000 mean=0.5674 source=road 1 observed=false target=road 3 observed=false class=neither directly observed downstream=Inf sens=0.64
+J1 P13   abs=0.4459 truth=0.5000 mean=0.0541 source=road 1 observed=false target=road 17 observed=true class=target observed downstream=0 sens=3.32
+J1 P21   abs=0.3704 truth=0.0800 mean=0.4504 source=road 2 observed=true target=road 3 observed=false class=source observed downstream=Inf sens=0.557
+J4 P13   abs=0.3481 truth=0.5400 mean=0.1919 source=road 13 observed=false target=road 22 observed=false class=neither directly observed downstream=1 sens=1.34
+J3 P21   abs=0.3369 truth=0.1000 mean=0.4369 source=road 10 observed=false target=road 11 observed=false class=neither directly observed downstream=Inf sens=0.18
+J2 P14   abs=0.3211 truth=0.5800 mean=0.2589 source=road 5 observed=false target=road 21 observed=true class=target observed downstream=0 sens=0.915
+J1 P42   abs=0.3104 truth=0.4600 mean=0.1496 source=road 20 observed=false target=road 4 observed=true class=target observed downstream=0 sens=0.691
+
+Largest individual posterior mean entry errors
+----------------------------------------------
+J1 P11   abs=0.4674 truth=0.1000 mean=0.5674 ci90=[0.2103, 0.9028] class=neither directly observed downstream=Inf sens=0.64
+J1 P13   abs=0.4459 truth=0.5000 mean=0.0541 ci90=[0.0072, 0.1527] class=target observed downstream=0 sens=3.32
+J1 P21   abs=0.3704 truth=0.0800 mean=0.4504 ci90=[0.1035, 0.8229] class=source observed downstream=Inf sens=0.557
+J4 P13   abs=0.3481 truth=0.5400 mean=0.1919 ci90=[0.0193, 0.5499] class=neither directly observed downstream=1 sens=1.34
+J3 P21   abs=0.3369 truth=0.1000 mean=0.4369 ci90=[0.0695, 0.8316] class=neither directly observed downstream=Inf sens=0.18
+J2 P14   abs=0.3211 truth=0.5800 mean=0.2589 ci90=[0.1101, 0.4469] class=target observed downstream=0 sens=0.915
+J1 P42   abs=0.3104 truth=0.4600 mean=0.1496 ci90=[0.0184, 0.4052] class=target observed downstream=0 sens=0.691
+J2 P31   abs=0.2898 truth=0.4800 mean=0.1902 ci90=[0.0362, 0.4093] class=source+target observed downstream=0 sens=0.849
+J1 P24   abs=0.2881 truth=0.5200 mean=0.2319 ci90=[0.0690, 0.4794] class=source observed downstream=2 sens=2.5
+J2 P23   abs=0.2856 truth=0.5600 mean=0.2744 ci90=[0.0258, 0.6164] class=neither directly observed downstream=1 sens=0.407
+J3 P13   abs=0.2843 truth=0.4200 mean=0.1357 ci90=[0.0146, 0.3692] class=source observed downstream=1 sens=1.13
+J3 P31   abs=0.2755 truth=0.4400 mean=0.1645 ci90=[0.0180, 0.4349] class=neither directly observed downstream=Inf sens=0.141
+
+Entry group summaries
+---------------------
+direct_observation | neither directly observed | n=24 large=3 ci_miss=4 mean_abs=0.1738 max_abs=0.4674 mean_sens=0.731
+direct_observation | source observed | n=16 large=1 ci_miss=3 mean_abs=0.1500 max_abs=0.3704 mean_sens=0.785
+direct_observation | source+target observed | n=8 large=0 ci_miss=3 mean_abs=0.1331 max_abs=0.2898 mean_sens=1.22
+direct_observation | target observed | n=16 large=3 ci_miss=4 mean_abs=0.1476 max_abs=0.4459 mean_sens=1.21
+downstream_observation | no downstream observed road | n=20 large=3 ci_miss=3 mean_abs=0.1861 max_abs=0.4674 mean_sens=0.386
+downstream_observation | observed after 1 turn | n=16 large=1 ci_miss=2 mean_abs=0.1363 max_abs=0.3481 mean_sens=0.764
+downstream_observation | observed after 2 turns | n=4 large=0 ci_miss=2 mean_abs=0.1670 max_abs=0.2881 mean_sens=2.54
+downstream_observation | target observed | n=24 large=3 ci_miss=7 mean_abs=0.1427 max_abs=0.4459 mean_sens=1.21
+incoming_role | incoming | n=32 large=6 ci_miss=9 mean_abs=0.1810 max_abs=0.4674 mean_sens=1.07
+incoming_role | internal | n=32 large=1 ci_miss=5 mean_abs=0.1314 max_abs=0.3104 mean_sens=0.777
+outgoing_role | internal | n=32 large=3 ci_miss=9 mean_abs=0.1456 max_abs=0.4459 mean_sens=1.29
+outgoing_role | outgoing | n=32 large=4 ci_miss=5 mean_abs=0.1668 max_abs=0.4674 mean_sens=0.556
+junction | J1 (top-left) | n=16 large=4 ci_miss=8 mean_abs=0.2083 max_abs=0.4674 mean_sens=1.64
+junction | J2 (top-right) | n=16 large=1 ci_miss=2 mean_abs=0.1378 max_abs=0.3211 mean_sens=0.581
+junction | J3 (bottom-left) | n=16 large=1 ci_miss=3 mean_abs=0.1449 max_abs=0.3369 mean_sens=0.484
+junction | J4 (bottom-right) | n=16 large=1 ci_miss=1 mean_abs=0.1338 max_abs=0.3481 mean_sens=0.993
+
+Row group summaries
+-------------------
+source_observed | source observed | n=6 dominant_changed=5 source_unobserved=0 mean_TV=0.2888 max_TV=0.4566 mean_signal=0.188 mean_min_pair=0.301
+source_observed | source unobserved | n=10 dominant_changed=10 source_unobserved=10 mean_TV=0.3266 max_TV=0.5553 mean_signal=0.249 mean_min_pair=0.302
+observed_target_count | 0 observed targets | n=4 dominant_changed=4 source_unobserved=2 mean_TV=0.2899 max_TV=0.3704 mean_signal=0.0905 mean_min_pair=0
+observed_target_count | 2 observed targets | n=12 dominant_changed=11 source_unobserved=8 mean_TV=0.3199 max_TV=0.5553 mean_signal=0.271 mean_min_pair=0.403
+dominant_target_changed | dominant target changed | n=15 dominant_changed=15 source_unobserved=10 mean_TV=0.3161 max_TV=0.5553 mean_signal=0.223 mean_min_pair=0.273
+dominant_target_changed | dominant target preserved | n=1 dominant_changed=0 source_unobserved=0 mean_TV=0.2565 max_TV=0.2565 mean_signal=0.27 mean_min_pair=0.739
+junction | J1 (top-left) | n=4 dominant_changed=4 source_unobserved=3 mean_TV=0.4166 max_TV=0.5553 mean_signal=0.459 mean_min_pair=0.575
+junction | J2 (top-right) | n=4 dominant_changed=4 source_unobserved=3 mean_TV=0.2756 max_TV=0.3211 mean_signal=0.141 mean_min_pair=2.6e-06
+junction | J3 (bottom-left) | n=4 dominant_changed=4 source_unobserved=2 mean_TV=0.2899 max_TV=0.3704 mean_signal=0.0905 mean_min_pair=0
+junction | J4 (bottom-right) | n=4 dominant_changed=3 source_unobserved=2 mean_TV=0.2676 max_TV=0.3481 mean_signal=0.214 mean_min_pair=0.632

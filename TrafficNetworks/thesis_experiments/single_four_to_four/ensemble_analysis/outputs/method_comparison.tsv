@@ -1,0 +1,4 @@
+method	runtime_seconds	turning_rmse	predictive_rmse	mean_90_interval_width	coverage_count	coverage_total
+EnIS	30.85	0.1830	0.0184	0.0000	0	16
+EKS	29.58	0.1213	0.0171	0.4148	15	16
+ESMDA	33.97	0.0641	0.0070	0.1495	13	16

@@ -1,0 +1,54 @@
+[experiment]
+id = "single_four_to_four_optimizer_vs_ensemble"
+name = "Single four-to-four junction ESMDA versus ADAM"
+section_label = "subsubsec:single_four_to_four_esmda_adam"
+table_label = "tab:four_to_four_esmda_adam"
+figure_labels = [
+    "fig:four_to_four_single_junction_state",
+    "fig:four_to_four_single_junction_turning",
+]
+sources = [
+    "run.jl",
+    "plots.jl",
+    "../common/four_to_four_method_core.jl",
+    "../common/four_to_four_state_summaries.jl",
+    "../common/four_to_four_adam.jl",
+    "../common/four_to_four_reporting.jl",
+]
+
+[setup]
+random_seed = 42
+parameter_space = "z"
+prior = "z ~ N(0,I_12)"
+noise_model = "weighted residual physical clipped noise"
+esmda_ensemble_members = 192
+esmda_assimilation_steps = 8
+esmda_alpha_n = 8
+adam_initialization = "z = 0"
+adam_iterations = 500
+adam_learning_rate = 0.08
+adam_gradient_clip = 250
+
+[results.esmda]
+runtime_seconds = 112.5
+turning_rmse = 0.0622
+predictive_rmse = 0.0068
+final_state_rmse = 0.0043
+mean_90_interval_width = 0.1584
+coverage_count = 11
+coverage_total = 16
+
+[results.adam]
+runtime_seconds = 98.7
+turning_rmse = 0.0494
+predictive_rmse = 0.0051
+final_state_rmse = 0.0026
+
+[outputs]
+method_comparison = "outputs/method_comparison.tsv"
+
+[figures.final_state]
+path = "figures/four_to_four_esmda_vs_adam_final_state.png"
+
+[figures.turning_fractions]
+path = "figures/four_to_four_turning_fraction_uncertainty.png"

@@ -1,0 +1,72 @@
+name = "one_to_two"
+
+[simulation]
+cfl = 0.5
+control_step_seconds = 15
+horizon_minutes = 4.0
+
+[discretization]
+mode = "blocks"
+basis_length_km = 0.25
+cells_per_block = 6
+
+[observations]
+road_ids = [2, 3]
+cell_fractions = [0.70]
+
+[[roads]]
+id = 1
+label = "Incoming approach"
+blocks = 4
+speed_limit = 80
+[roads.profile]
+type = "piecewise"
+default = 0.18
+segments = [
+    [0.00, 0.25, 0.22],
+    [0.25, 0.60, 0.30],
+    [0.60, 1.00, 0.44],
+]
+
+[[roads]]
+id = 2
+label = "Upper outgoing road"
+blocks = 3
+speed_limit = 60
+[roads.profile]
+type = "piecewise"
+default = 0.10
+segments = [
+    [0.00, 0.25, 0.18],
+    [0.25, 0.60, 0.13],
+    [0.60, 1.00, 0.09],
+]
+
+[[roads]]
+id = 3
+label = "Lower outgoing road"
+blocks = 3
+speed_limit = 50
+[roads.profile]
+type = "piecewise"
+default = 0.08
+segments = [
+    [0.00, 0.30, 0.12],
+    [0.30, 0.65, 0.10],
+    [0.65, 1.00, 0.07],
+]
+
+[[junctions]]
+incoming = [1]
+outgoing = [2, 3]
+
+[[boundaries]]
+road_id = 1
+[boundaries.signal]
+type = "gaussian"
+base = 0.075
+pulses_minutes = [
+    [0.090, 0.60, 0.15],
+    [0.080, 1.80, 0.22],
+    [0.060, 3.00, 0.28],
+]

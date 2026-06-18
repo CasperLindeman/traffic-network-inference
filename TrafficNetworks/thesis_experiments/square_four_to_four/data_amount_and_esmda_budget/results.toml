@@ -1,0 +1,231 @@
+[experiment]
+id = "square_four_to_four_data_amount_and_esmda_budget"
+name = "Square four-to-four network data amount and ESMDA budget"
+figure_labels = [
+    "fig:square_data_amount_summary",
+    "fig:square_compute_cost_summary",
+]
+sources = [
+    "run.jl",
+    "plots.jl",
+    "sources/generate_data_budget_results.jl",
+    "sources/plot_data_budget_figures.jl",
+]
+
+[setup]
+seeds = 5
+seed_values = [1, 2, 3, 4, 5]
+physical_peak_noise_sigma = 0.08
+sigma_floor_fraction = 0.03
+prior_scale = 1.25
+observed_road_count = 9
+sensors_per_observed_road = 4
+base_saved_times_per_scenario = 8
+base_observation_count = 288
+
+[setup.reference_budget]
+ensemble_members = 192
+assimilation_steps = 6
+forward_runs = 1152
+
+[results.data_amount.horizon_1x]
+scenario_count = 1
+horizon_factor = 1
+observation_count = 288
+turning_rmse_mean = 0.1539294533
+turning_rmse_min = 0.1452325138
+turning_rmse_max = 0.1618260192
+final_state_rmse_all_mean = 0.03715433986
+normalized_fit_rmse_noisy_mean = 1.257545254
+turning_ci90_width_mean = 0.5506230749
+
+[results.data_amount.horizon_2x]
+scenario_count = 1
+horizon_factor = 2
+observation_count = 576
+turning_rmse_mean = 0.166671768
+turning_rmse_min = 0.1578263652
+turning_rmse_max = 0.184160881
+final_state_rmse_all_mean = 0.05627861953
+normalized_fit_rmse_noisy_mean = 1.445353775
+turning_ci90_width_mean = 0.4968465843
+
+[results.data_amount.horizon_4x]
+scenario_count = 1
+horizon_factor = 4
+observation_count = 1152
+turning_rmse_mean = 0.1782943934
+turning_rmse_min = 0.1583652934
+turning_rmse_max = 0.1973858322
+final_state_rmse_all_mean = 0.08162458194
+normalized_fit_rmse_noisy_mean = 1.430541023
+turning_ci90_width_mean = 0.4124359994
+
+[results.data_amount.horizon_8x]
+scenario_count = 1
+horizon_factor = 8
+observation_count = 2304
+turning_rmse_mean = 0.1885537019
+turning_rmse_min = 0.1753055819
+turning_rmse_max = 0.2006162837
+final_state_rmse_all_mean = 0.1101939819
+normalized_fit_rmse_noisy_mean = 1.32176086
+turning_ci90_width_mean = 0.2827912137
+
+[results.data_amount.scenarios_1x]
+scenario_count = 1
+horizon_factor = 1
+observation_count = 288
+turning_rmse_mean = 0.1539294533
+turning_rmse_min = 0.1452325138
+turning_rmse_max = 0.1618260192
+final_state_rmse_all_mean = 0.03715433986
+normalized_fit_rmse_noisy_mean = 1.257545254
+turning_ci90_width_mean = 0.5506230749
+
+[results.data_amount.scenarios_3x]
+scenario_count = 3
+horizon_factor = 1
+observation_count = 864
+turning_rmse_mean = 0.158882436
+turning_rmse_min = 0.1428432542
+turning_rmse_max = 0.1692916514
+final_state_rmse_all_mean = 0.03644544974
+normalized_fit_rmse_noisy_mean = 1.41739504
+turning_ci90_width_mean = 0.5329489088
+
+[results.data_amount.scenarios_6x]
+scenario_count = 6
+horizon_factor = 1
+observation_count = 1728
+turning_rmse_mean = 0.1578161507
+turning_rmse_min = 0.1413175496
+turning_rmse_max = 0.1660816493
+final_state_rmse_all_mean = 0.03514449822
+normalized_fit_rmse_noisy_mean = 1.441644767
+turning_ci90_width_mean = 0.5070606953
+
+[results.data_amount.scenarios_12x]
+scenario_count = 12
+horizon_factor = 1
+observation_count = 3456
+turning_rmse_mean = 0.1598576189
+turning_rmse_min = 0.1315850443
+turning_rmse_max = 0.1885935548
+final_state_rmse_all_mean = 0.03584605678
+normalized_fit_rmse_noisy_mean = 1.493731804
+turning_ci90_width_mean = 0.4538795848
+
+[results.esmda_budget.baseline_1x.tiny_64x2]
+ensemble_members = 64
+assimilation_steps = 2
+forward_runs = 128
+turning_rmse_mean = 0.1643422628
+final_state_rmse_all_mean = 0.03863201774
+turning_ci90_width_mean = 0.489263543
+
+[results.esmda_budget.baseline_1x.small_128x4]
+ensemble_members = 128
+assimilation_steps = 4
+forward_runs = 512
+turning_rmse_mean = 0.1575561347
+final_state_rmse_all_mean = 0.03603802411
+turning_ci90_width_mean = 0.5286815939
+
+[results.esmda_budget.baseline_1x.reference_192x6]
+ensemble_members = 192
+assimilation_steps = 6
+forward_runs = 1152
+turning_rmse_mean = 0.1539294533
+final_state_rmse_all_mean = 0.03715433986
+turning_ci90_width_mean = 0.5506230749
+
+[results.esmda_budget.baseline_1x.more_iterations_192x12]
+ensemble_members = 192
+assimilation_steps = 12
+forward_runs = 2304
+turning_rmse_mean = 0.1545328834
+final_state_rmse_all_mean = 0.03890924461
+turning_ci90_width_mean = 0.5726601667
+
+[results.esmda_budget.baseline_1x.larger_ensemble_384x6]
+ensemble_members = 384
+assimilation_steps = 6
+forward_runs = 2304
+turning_rmse_mean = 0.1528649067
+final_state_rmse_all_mean = 0.0379839325
+turning_ci90_width_mean = 0.5648086364
+
+[results.esmda_budget.scenarios_12x.tiny_64x2]
+ensemble_members = 64
+assimilation_steps = 2
+forward_runs = 128
+turning_rmse_mean = 0.1915061102
+turning_rmse_min = 0.163094177
+turning_rmse_max = 0.2129741484
+final_state_rmse_all_mean = 0.03514388651
+turning_ci90_width_mean = 0.358207283
+
+[results.esmda_budget.scenarios_12x.small_128x4]
+ensemble_members = 128
+assimilation_steps = 4
+forward_runs = 512
+turning_rmse_mean = 0.1687141519
+turning_rmse_min = 0.1378443249
+turning_rmse_max = 0.2074585994
+final_state_rmse_all_mean = 0.03374822559
+turning_ci90_width_mean = 0.4237256031
+
+[results.esmda_budget.scenarios_12x.reference_192x6]
+ensemble_members = 192
+assimilation_steps = 6
+forward_runs = 1152
+turning_rmse_mean = 0.1598576189
+turning_rmse_min = 0.1315850443
+turning_rmse_max = 0.1885935548
+final_state_rmse_all_mean = 0.03584605678
+turning_ci90_width_mean = 0.4538795848
+
+[results.esmda_budget.scenarios_12x.more_iterations_192x12]
+ensemble_members = 192
+assimilation_steps = 12
+forward_runs = 2304
+turning_rmse_mean = 0.1633423423
+turning_rmse_min = 0.1314716953
+turning_rmse_max = 0.1915849891
+final_state_rmse_all_mean = 0.03780900841
+turning_ci90_width_mean = 0.4658900663
+
+[results.esmda_budget.scenarios_12x.larger_ensemble_384x6]
+ensemble_members = 384
+assimilation_steps = 6
+forward_runs = 2304
+turning_rmse_mean = 0.1532184342
+turning_rmse_min = 0.1352134357
+turning_rmse_max = 0.1664218802
+final_state_rmse_all_mean = 0.03414306697
+turning_ci90_width_mean = 0.478987329
+
+[pilot.scenarios_12x.pilot_2048x6_seed1]
+ensemble_members = 2048
+assimilation_steps = 6
+forward_runs = 12288
+seed = 1
+turning_rmse = 0.1726491338
+final_state_rmse_all = 0.04293706705
+normalized_fit_rmse_noisy = 1.480325937
+turning_ci90_width_mean = 0.4972229089
+
+[outputs]
+summary = "outputs/data_budget_summary.tsv"
+data_amount_seed_metrics = "outputs/data_budget_data_amount_seed_metrics.tsv"
+esmda_budget_seed_metrics = "outputs/data_budget_compute_cost_seed_metrics.tsv"
+all_seed_metrics = "outputs/data_budget_all_seed_metrics.tsv"
+config = "outputs/data_budget_experiment_config.txt"
+large_ensemble_pilot = "outputs/multi_scenario_large_ensemble_pilot_2048x6_seed1.tsv"
+
+[figures.data_amount]
+path = "figures/data_budget_data_amount_summary.png"
+
+[figures.esmda_budget]
+path = "figures/data_budget_compute_cost_summary.png"

@@ -1,0 +1,13 @@
+# Local/editor state and archived exploratory work
+.vscode/
+.julia_depot/
+.codex_*/
+master_thesis/
+TrafficNetworks/notebooks/
+Masteroppgave_NTNU_template_current.zip
+_esmda_adam_page-*.png
+
+# Generated caches
+**/__pycache__/
+*.pyc
+*.pid

@@ -1,0 +1,20 @@
+iteration,node_id,node_label,incoming_road_id,outgoing_road_id,merged_road_id,length_m,incoming_road_type,outgoing_road_type,road_type,incoming_lanes,outgoing_lanes,lanes,incoming_speed_limit,outgoing_speed_limit,speed_limit
+1,1424554,J752,34,318,34,159.788,Kanalisert veg,Kanalisert veg,Kanalisert veg,4,4,4.0,80,80,80
+2,1425951,J754,254,28,254,466.801,Kanalisert veg,Kanalisert veg,Kanalisert veg,3,3,3.0,80,80,80
+3,1713050,J269,1664,1661,1664,48.426,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,40,40,40
+4,1817924,J119,2245,2168,2245,249.501,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,60,60,60
+5,2228114,J367,1387,1385,1387,99.168,Kanalisert veg,Kanalisert veg,Kanalisert veg,2,2,2.0,60,60,60
+6,2538480,J10,2263,2264,2263,32.220,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,40,40,40
+7,2659393,J646,162,206,162,981.313,Enkel bilveg,Enkel bilveg,Enkel bilveg,2,2,2.0,80,80,80
+8,3291641,J94,2446,2429,2446,136.064,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,60,60,60
+9,3291642,J95,2419,2430,2419,136.215,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,60,60,60
+10,3342448,J99,2410,2395,2410,145.321,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,60,60,60
+11,452448,J116,2382,2389,2382,113.723,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,40,40,40
+12,452640,J140,2243,2249,2243,162.000,Rampe,Rampe,Rampe,1,1,1.0,50,50,50
+13,453870,J349,1446,1453,1446,33.717,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,40,40,40
+14,457791,J663,187,158,187,502.703,Rampe,Rampe,Rampe,1,1,1.0,50,50,50
+15,458125,J696,261,257,261,26.489,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,40,40,40
+16,458506,J747,290,286,290,21.982,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,40,40,40
+17,CN147,J135,2638,2642,2638,32.817,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,40,40,40
+18,CN16,J707,310,253,310,270.374,Rampe,Rampe,Rampe,1,1,1.0,50,50,50
+19,CN71,J736,166,163,166,34.477,Kanalisert veg,Kanalisert veg,Kanalisert veg,1,1,1.0,40,40,40

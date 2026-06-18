@@ -1,0 +1,25 @@
+quantity	value
+horizon_seconds	180.0
+observation_times_seconds	30.0 60.0 90.0 120.0 150.0 180.0
+target_nodes	20
+learned_rows	45
+latent_parameters	97
+sensor_roads	14
+observations	84
+forward_seconds	23.0075209
+prior_scale	1.25
+generated_peak_noise_sigma	0.08
+sigma_floor_fraction	0.15
+sigma_absolute_floor	0.001
+esmda_covariance_inflation	1.02
+esmda_ensemble	128
+esmda_steps	4
+esmda_seconds	8698.7868545
+esmda_turning_rmse	0.18372242113365397
+esmda_turning_mae	0.13471715212040586
+esmda_mean_width	0.6186452265789104
+esmda_coverage	130/142
+esmda_fit_rmse	0.08477168008753846
+esmda_predictive_rmse	0.008843443204089975
+esmda_predictive_coverage	84/84
+lbfgs_status	skipped

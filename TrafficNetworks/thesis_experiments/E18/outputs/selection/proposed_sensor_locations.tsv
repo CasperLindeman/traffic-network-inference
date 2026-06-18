@@ -1,0 +1,15 @@
+sensor_label	road_id	road_fraction	start_node	end_node	length_m	road_type	lanes	speed_limit
+S1	1047	0.55	RB08	RB10	80.851	Kanalisert veg	1	60
+S2	1052	0.52	RB08	RB14	245.165	Kanalisert veg	1	60
+S4	931	0.72	CN145	CN149	373.463	Kanalisert veg	3	80
+S5	1036	0.55	CN151	CN146	531.568	Kanalisert veg	2	80
+S7	986	0.52	452753	452741	66.107	Enkel bilveg	1	40
+S8	1002	0.96	CN149	CN154	1449.010	Kanalisert veg	3	80
+S9	791	0.52	CN155	CN153	369.342	Kanalisert veg	3	80
+S10	798	0.5	RB19	RB18	117.093	Kanalisert veg	1	60
+S11	544	0.28	CN109	CN117	907.494	Kanalisert veg	3	80
+S12	393	0.68	CN28	CN139	702.661	Kanalisert veg	3	80
+S13	551	0.2	RB23	CN139	316.054	Rampe	1	50
+S14	137	0.58	CN23	CN17	455.792	Kanalisert veg	3	80
+S15	113	0.5	CN182	CN183	466.801	Kanalisert veg	3.0	80
+S16	235	0.65	CN09	457653	113.778	Rampe	1	50

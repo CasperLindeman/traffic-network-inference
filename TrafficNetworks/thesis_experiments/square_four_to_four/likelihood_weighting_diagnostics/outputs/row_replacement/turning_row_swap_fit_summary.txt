@@ -1,0 +1,66 @@
+Turning-row swap-back fit diagnostic
+====================================
+Regime: likelihood_floor_12x
+Rows tested: 16
+Rows where swapping row to truth improves prediction vs y_true: 5 / 16
+Rows where swapping row to truth improves noisy-observation fit: 4 / 16
+
+Interpretation
+--------------
+Positive truth_rmse_improvement: that row error is genuinely hurting prediction.
+Near-zero truth_rmse_improvement: swapping the row barely matters for the simulated observations/states we compare.
+Positive noisy fit improvement is weaker evidence, because noisy observations do not equal truth.
+
+Worst row errors
+----------------
+J1 row 1 TV=0.5553 source=road 1 observed=false dominant=3->1 truth_improve=0.020905 fit_improve=-0.284046 visibility=0.91 best_truth_road=17 (internal, 0.076250)
+J1 row 4 TV=0.4677 source=road 20 observed=false dominant=2->1 truth_improve=0.004565 fit_improve=-0.036276 visibility=0.303 best_truth_road=17 (internal, 0.020605)
+J1 row 2 TV=0.4566 source=road 2 observed=true dominant=4->1 truth_improve=0.005202 fit_improve=-0.016962 visibility=0.2 best_truth_road=17 (internal, 0.017096)
+J3 row 2 TV=0.3704 source=road 10 observed=false dominant=4->1 truth_improve=0.000292 fit_improve=0.001078 visibility=0.0456 best_truth_road=9 (incoming, 0.004703)
+J4 row 1 TV=0.3481 source=road 13 observed=false dominant=3->2 truth_improve=-0.002734 fit_improve=-0.007676 visibility=0.321 best_truth_road=21 (internal, 0.001193)
+J2 row 1 TV=0.3211 source=road 5 observed=false dominant=4->1 truth_improve=-0.004282 fit_improve=-0.018319 visibility=0.295 best_truth_road=2 (incoming, 0.000000)
+J2 row 2 TV=0.3037 source=road 6 observed=false dominant=3->4 truth_improve=-0.000458 fit_improve=0.000075 visibility=0.0794 best_truth_road=7 (outgoing, 0.000762)
+J2 row 3 TV=0.2898 source=road 17 observed=true dominant=1->4 truth_improve=-0.000771 fit_improve=-0.008246 visibility=0.146 best_truth_road=17 (internal, 0.000226)
+
+Observed-road effects for worst rows
+------------------------------------
+J1 row 1
+  road 17 (internal): truth_improve=0.076250 fit_improve=-1.489128 visibility=2.73
+  road 2 (incoming): truth_improve=-0.005909 fit_improve=0.003715 visibility=0.157
+  road 4 (outgoing): truth_improve=0.000488 fit_improve=0.002832 visibility=0.0624
+  road 9 (incoming): truth_improve=0.000299 fit_improve=0.001525 visibility=0.0277
+J1 row 4
+  road 4 (outgoing): truth_improve=-0.025696 fit_improve=-0.129859 visibility=0.527
+  road 17 (internal): truth_improve=0.020605 fit_improve=-0.166916 visibility=0.723
+  road 2 (incoming): truth_improve=-0.005783 fit_improve=0.003428 visibility=0.155
+  road 9 (incoming): truth_improve=0.000180 fit_improve=0.001936 visibility=0.02
+J1 row 2
+  road 17 (internal): truth_improve=0.017096 fit_improve=-0.109443 visibility=0.579
+  road 4 (outgoing): truth_improve=-0.005909 fit_improve=-0.009482 visibility=0.156
+  road 2 (incoming): truth_improve=-0.000937 fit_improve=0.001011 visibility=0.0224
+  road 9 (incoming): truth_improve=0.000155 fit_improve=0.001661 visibility=0.0165
+J3 row 2
+  road 9 (incoming): truth_improve=0.004703 fit_improve=-0.001154 visibility=0.069
+  road 24 (internal): truth_improve=0.004443 fit_improve=0.013587 visibility=0.118
+  road 15 (outgoing): truth_improve=0.000000 fit_improve=-0.000001 visibility=1.55e-05
+  road 2 (incoming): truth_improve=0.000000 fit_improve=0.000000 visibility=0
+J4 row 1
+  road 24 (internal): truth_improve=-0.024880 fit_improve=-0.115154 visibility=0.644
+  road 15 (outgoing): truth_improve=-0.011241 fit_improve=0.011742 visibility=0.4
+  road 21 (internal): truth_improve=0.001193 fit_improve=-0.002449 visibility=0.399
+  road 14 (incoming): truth_improve=-0.000469 fit_improve=0.018823 visibility=0.442
+J2 row 1
+  road 7 (outgoing): truth_improve=-0.033094 fit_improve=-0.081602 visibility=0.6
+  road 17 (internal): truth_improve=-0.005484 fit_improve=-0.058326 visibility=0.632
+  road 21 (internal): truth_improve=-0.001751 fit_improve=-0.005897 visibility=0.155
+  road 2 (incoming): truth_improve=0.000000 fit_improve=-0.000000 visibility=1.6e-06
+J2 row 2
+  road 21 (internal): truth_improve=-0.007888 fit_improve=-0.001541 visibility=0.235
+  road 7 (outgoing): truth_improve=0.000762 fit_improve=-0.001061 visibility=0.0187
+  road 17 (internal): truth_improve=0.000153 fit_improve=0.002108 visibility=0.0342
+  road 2 (incoming): truth_improve=-0.000000 fit_improve=0.000000 visibility=1.4e-06
+J2 row 3
+  road 7 (outgoing): truth_improve=-0.015093 fit_improve=-0.085439 visibility=0.424
+  road 21 (internal): truth_improve=-0.001651 fit_improve=0.004330 visibility=0.0918
+  road 17 (internal): truth_improve=0.000226 fit_improve=0.003166 visibility=0.0548
+  road 2 (incoming): truth_improve=0.000000 fit_improve=-0.000000 visibility=1.26e-06

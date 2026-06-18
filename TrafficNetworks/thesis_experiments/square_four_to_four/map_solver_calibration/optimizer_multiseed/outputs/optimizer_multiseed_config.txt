@@ -1,0 +1,10 @@
+Square four-to-four optimizer multiseed experiment
+==================================================
+noise_sigma = 0.001000
+prior_scale = 1.250000
+seeds = [1, 2, 3, 4, 5]
+
+Configs:
+- ADAM 300s tuned: budget 300s, ADAM warmup 0s, L-BFGS 0s, lr 0.08, clip 300
+- L-BFGS 300s: budget 300s, ADAM warmup 0s, L-BFGS 300s, lr NaN, clip NaN
+- ADAM 30s + L-BFGS 270s: budget 300s, ADAM warmup 30s, L-BFGS 270s, lr 0.08, clip 300

@@ -1,0 +1,31 @@
+Square network data amount and ESMDA budget experiment
+======================================================
+
+Purpose:
+1. Separate the effect of data amount into longer horizons and more independent IC/BC scenarios.
+2. Separate the effect of ESMDA compute into ensemble size and assimilation iterations.
+
+Reporting convention:
+Seeds: 1, 2, 3, 4, 5
+Summary tables report mean, min, and max across seeds. Standard deviations are deliberately omitted.
+
+Fixed observation design:
+Observed roads: 9
+Sensors per observed road: 4
+Base saved times per scenario: 8
+Base observation count: 288
+
+Fixed numerical setup:
+Physical peak noise sigma: 0.0800
+Prior scale: 1.25
+Shared base length: 0.050 km
+Uniform dx: 25.0 m
+
+Reference ESMDA budget:
+reference_192x6: ensemble=192, iterations=6, forward runs=1152
+
+Saved outputs:
+C:\Skole\V26\masteroppgave\github_code_master_thesis\TrafficNetworks\thesis_experiments\square_four_to_four\data_amount_and_esmda_budget\sources\..\outputs\data_budget_data_amount_seed_metrics.tsv
+C:\Skole\V26\masteroppgave\github_code_master_thesis\TrafficNetworks\thesis_experiments\square_four_to_four\data_amount_and_esmda_budget\sources\..\outputs\data_budget_compute_cost_seed_metrics.tsv
+C:\Skole\V26\masteroppgave\github_code_master_thesis\TrafficNetworks\thesis_experiments\square_four_to_four\data_amount_and_esmda_budget\sources\..\outputs\data_budget_all_seed_metrics.tsv
+C:\Skole\V26\masteroppgave\github_code_master_thesis\TrafficNetworks\thesis_experiments\square_four_to_four\data_amount_and_esmda_budget\sources\..\outputs\data_budget_summary.tsv

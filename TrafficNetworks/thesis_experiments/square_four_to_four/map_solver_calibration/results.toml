@@ -1,0 +1,170 @@
+[experiment]
+id = "square_four_to_four_map_solver_calibration"
+name = "Square four-to-four network MAP solver calibration"
+section_label = "subsec:square_map_optimizer_calibration"
+table_labels = [
+    "tab:square_optimizer_runtime_calibration",
+    "tab:square_optimizer_multiseed_calibration",
+    "tab:square_map_mse_calibration",
+]
+figure_labels = [
+    "fig:square_map_runtime_objective",
+]
+subfolders = [
+    "optimizer_runtime",
+    "optimizer_multiseed",
+    "objective_choice",
+]
+sources = ["run.jl"]
+
+[setup]
+parameter_space = "z"
+prior = "z ~ N(0, 1.25^2 I)"
+optimizer_budget_seconds = 300
+objective_floor_fraction = 0.15
+gradient_method = "automatic differentiation through the implemented objective"
+purpose = "choose a sufficiently reliable MAP optimizer and objective for later square-network comparisons"
+
+[optimizer_runtime]
+source_folder = "optimizer_runtime"
+metrics = "optimizer_runtime/outputs/optimizer_runtime_metrics.tsv"
+figure = "optimizer_runtime/figures/square_map_runtime_objective.png"
+
+[optimizer_runtime.results.adam_30s]
+iterations = 103
+solve_seconds = 30.15400004
+map_loss = 5215.88599601
+fit_rmse = 0.00601802
+turning_rmse = 0.13931468
+final_state_rmse = 0.06426186
+
+[optimizer_runtime.results.adam_120s]
+iterations = 404
+solve_seconds = 120.29600000
+map_loss = 2016.09020181
+fit_rmse = 0.00373945
+turning_rmse = 0.11767384
+final_state_rmse = 0.06176562
+
+[optimizer_runtime.results.adam_300s]
+iterations = 975
+solve_seconds = 300.26900005
+map_loss = 980.61285322
+fit_rmse = 0.00260277
+turning_rmse = 0.10386471
+final_state_rmse = 0.06143730
+
+[optimizer_runtime.results.lbfgs_30s]
+iterations = 26
+solve_seconds = 30.33500004
+map_loss = 6891.74374676
+fit_rmse = 0.00691774
+turning_rmse = 0.14298524
+final_state_rmse = 0.06814551
+
+[optimizer_runtime.results.lbfgs_120s]
+iterations = 124
+solve_seconds = 120.59600019
+map_loss = 333.37177128
+fit_rmse = 0.00150995
+turning_rmse = 0.11899388
+final_state_rmse = 0.06946409
+
+[optimizer_runtime.results.lbfgs_300s]
+iterations = 367
+solve_seconds = 300.49299979
+map_loss = 170.93637818
+fit_rmse = 0.00106708
+turning_rmse = 0.10246867
+final_state_rmse = 0.06254641
+
+[optimizer_runtime.results.hybrid_120s]
+iterations = 210
+solve_seconds = 120.78299999
+map_loss = 344.24565396
+fit_rmse = 0.00153409
+turning_rmse = 0.11356470
+final_state_rmse = 0.06272110
+
+[optimizer_runtime.results.hybrid_300s]
+iterations = 435
+solve_seconds = 300.80999994
+map_loss = 171.57199541
+fit_rmse = 0.00106761
+turning_rmse = 0.10111069
+final_state_rmse = 0.06752452
+
+[optimizer_multiseed]
+source_folder = "optimizer_multiseed"
+summary = "optimizer_multiseed/outputs/optimizer_multiseed_summary.tsv"
+case_metrics = "optimizer_multiseed/outputs/optimizer_multiseed_case_metrics.tsv"
+config = "optimizer_multiseed/outputs/optimizer_multiseed_config.txt"
+
+[optimizer_multiseed.results.lbfgs_300s]
+seeds = 5
+best_loss_count = 4
+mean_map_loss = 154.86624392
+median_map_loss = 154.45572497
+mean_fit_rmse = 0.00101344
+mean_turning_rmse = 0.10223799
+mean_final_state_rmse = 0.06756485
+
+[optimizer_multiseed.results.hybrid_300s]
+seeds = 5
+best_loss_count = 1
+mean_map_loss = 156.70972528
+median_map_loss = 155.61654788
+mean_fit_rmse = 0.00102035
+mean_turning_rmse = 0.10106932
+mean_final_state_rmse = 0.06690197
+
+[optimizer_multiseed.results.adam_300s_tuned]
+seeds = 5
+best_loss_count = 0
+mean_map_loss = 641.10822674
+median_map_loss = 653.06455934
+mean_fit_rmse = 0.00209514
+mean_turning_rmse = 0.10615514
+mean_final_state_rmse = 0.06149230
+
+[optimizer_multiseed.longer_budget.lbfgs_600s]
+summary = "optimizer_multiseed/outputs/lbfgs_600s_summary.tsv"
+case_metrics = "optimizer_multiseed/outputs/lbfgs_600s_case_metrics.tsv"
+seeds = 5
+mean_map_loss = 138.72809707
+median_map_loss = 137.73873994
+mean_fit_rmse = 0.00095226
+mean_turning_rmse = 0.09944701
+mean_final_state_rmse = 0.06640863
+
+[objective_choice]
+source_folder = "objective_choice"
+config = "objective_choice/outputs/objective_lbfgs_config.txt"
+summary = "objective_choice/outputs/objective_lbfgs_summary_metrics.tsv"
+restart_metrics = "objective_choice/outputs/objective_lbfgs_restart_metrics.tsv"
+
+[objective_choice.results.map]
+restarts = 5
+turning_rmse_mean = 0.155597309
+turning_rmse_median = 0.1563724986
+turning_rmse_min = 0.1527857558
+turning_rmse_max = 0.1568396138
+final_state_rmse_mean = 0.04141869886
+predictive_rmse_mean = 0.01738365757
+fit_rmse_mean = 0.06655291604
+map_loss_at_solution_mean = 206.5323767
+mse_loss_at_solution_mean = 0.6378179132
+solve_seconds_mean = 27.34080005
+
+[objective_choice.results.mse]
+restarts = 5
+turning_rmse_mean = 0.2731105612
+turning_rmse_median = 0.2551847743
+turning_rmse_min = 0.1639475195
+turning_rmse_max = 0.4193109595
+final_state_rmse_mean = 0.04884709726
+predictive_rmse_mean = 0.0165039165
+fit_rmse_mean = 0.06626562606
+map_loss_at_solution_mean = 17125.20314
+mse_loss_at_solution_mean = 0.6323236523
+solve_seconds_mean = 76.65220003

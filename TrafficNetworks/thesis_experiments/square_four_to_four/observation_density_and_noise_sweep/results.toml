@@ -1,0 +1,60 @@
+[experiment]
+id = "square_four_to_four_observation_density_and_noise_sweep"
+name = "Square four-to-four network observation density and noise sweep"
+figure_labels = [
+    "fig:square_density_noise_rmse_diagnostics",
+]
+sources = [
+    "run.jl",
+    "plots.jl",
+    "sources/density_noise_grid.jl",
+    "sources/density_noise_helpers.jl",
+    "sources/sensor_layout_helpers.jl",
+    "sources/turning_recovery_helpers.jl",
+]
+
+[setup]
+scenario_count = 12
+noise_levels = [0.01, 0.08, 0.20, 0.40]
+noise_seed_count = 3
+noise_seeds = [1, 2, 3]
+physical_peak_noise_scale_name = "sigma_peak"
+sigma_floor_fraction = 0.15
+esmda_ensemble_members = 192
+esmda_assimilation_steps = 6
+map_optimizer = "Optim.jl L-BFGS"
+map_time_limit_seconds = 300.0
+prior_scale = 1.25
+
+[setup.layouts.dense]
+observed_road_count = 9
+sensors_per_observed_road = 4
+sensor_count = 36
+
+[setup.layouts.sparse]
+observed_road_count = 9
+sensors_per_observed_road = 1
+sensor_count = 9
+
+[setup.layouts.minimal]
+observed_road_count = 2
+observed_roads = [17, 24]
+sensors_per_observed_road = 1
+sensor_count = 2
+
+[results.notes]
+main_diagnostic = "outputs/full_summary.tsv"
+turning_entry_diagnostic = "outputs/full_turning_entry_estimates.tsv"
+summary = "Noise level is the strongest factor in the sweep. Sensor count alone is a poor summary of data informativeness in this fixed square-network setup."
+
+[outputs]
+config = "outputs/full_config.txt"
+summary = "outputs/full_summary.tsv"
+fit_metrics = "outputs/full_fit_metrics.tsv"
+turning_entry_estimates = "outputs/full_turning_entry_estimates.tsv"
+esmda_diagnostics = "outputs/full_esmda_diagnostics.tsv"
+esmda_coverage_summary = "outputs/full_esmda_coverage_summary.tsv"
+sensor_layouts = "outputs/full_sensor_layouts.tsv"
+
+[figures.rmse_diagnostics]
+path = "figures/square_density_noise_rmse_diagnostics.png"

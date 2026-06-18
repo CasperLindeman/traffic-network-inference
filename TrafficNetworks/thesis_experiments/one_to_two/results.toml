@@ -1,0 +1,31 @@
+[experiment]
+id = "one_to_two_junction"
+name = "One-to-two junction"
+section_label = "subsubsec:one_to_two_junction"
+figure_label = "fig:one_to_two_prior_posterior"
+table_label = "tab:one_to_two_results"
+sources = ["run.jl", "inference.jl", "plots.jl"]
+
+[setup]
+method = "EnIS"
+particles = 1000
+random_seed = 42
+noise_sigma = 0.01
+simulation_horizon_s = 240
+observation_start_s = 15
+observation_interval_s = 15
+observations_per_sensor = 16
+total_observations = 32
+prior = "alpha ~ Beta(3,3)"
+
+[reference]
+alpha = 0.68
+
+[posterior]
+mean_alpha = 0.6672
+median_alpha = 0.6668
+ci_90_alpha = [0.6525, 0.6867]
+ess = 38.2
+
+[figure]
+path = "figures/one_to_two_turning_fraction_prior_posterior.png"

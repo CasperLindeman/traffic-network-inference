@@ -1,0 +1,2 @@
+method	requested_seconds	solve_seconds	iterations	best_loss	final_loss	converged
+map_lbfgs	300	106.046	277	510.2342231	510.2342231	false

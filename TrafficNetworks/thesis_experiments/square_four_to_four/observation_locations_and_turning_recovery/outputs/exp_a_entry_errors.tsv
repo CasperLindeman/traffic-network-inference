@@ -1,0 +1,1921 @@
+noise_seed	esmda_seed	global_entry	entry_label	junction	incoming_row	outgoing_col	source_road	target_road	class	direct_observation_class	truth	posterior_mean	abs_error
+1	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2586110061	0.1586110061
+1	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2554282534	0.1354282534
+1	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2358631565	0.2641368435
+1	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.250097584	0.02990241602
+1	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3191536	0.2391536
+1	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.2100783995	0.03007839953
+1	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.2359568181	0.01595681808
+1	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2348111824	0.2851888176
+1	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2541662509	0.1658337491
+1	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2237239062	0.01627609381
+1	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.2420288697	0.1620288697
+1	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2800809732	0.02008097318
+1	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.3345576557	0.1345576557
+1	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2486207123	0.2113792877
+1	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.06770134147	0.1722986585
+1	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.3491202905	0.2491202905
+1	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1622496389	0.01775036105
+1	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1687428068	0.08874280683
+1	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2850306693	0.1250306693
+1	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3839768849	0.1960231151
+1	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1519823651	0.01198236507
+1	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2734583876	0.1734583876
+1	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.4074886726	0.1525113274
+1	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.1670705747	0.03292942531
+1	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3653106712	0.1146893288
+1	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1490828396	0.05091716037
+1	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1870933014	0.1070933014
+1	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2985131877	0.0585131877
+1	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1950315602	0.01503156021
+1	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2599488353	0.1600511647
+1	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.379256469	0.07925646903
+1	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1657631354	0.06576313544
+1	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2373997324	0.07739973243
+1	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2470084845	0.06700848445
+1	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2224224738	0.1975775262
+1	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2931693093	0.0531693093
+1	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3447753319	0.2447753319
+1	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2711405757	0.0511405757
+1	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.2081837063	0.02818370631
+1	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1759003861	0.3240996139
+1	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.400381133	0.03961886696
+1	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1679287466	0.01207125339
+1	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2614464077	0.1614464077
+1	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1702437127	0.1097562873
+1	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2621437014	0.04214370141
+1	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1904999859	0.2095000141
+1	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1781290154	0.08187098463
+1	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3692272973	0.2492272973
+1	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.07830038986	0.04169961014
+1	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.443967689	0.283967689
+1	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.2444011638	0.2955988362
+1	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2333307573	0.05333075726
+1	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.06048140495	0.09951859505
+1	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2627413701	0.1627413701
+1	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2573831511	0.0573831511
+1	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.4193940739	0.1206059261
+1	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.321866414	0.138133586
+1	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2925006318	0.0525006318
+1	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2374778639	0.1374778639
+1	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1481550903	0.0518449097
+1	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.3948045416	0.1948045416
+1	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.2444694092	0.2355305908
+1	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2104640685	0.009535931512
+1	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1502619807	0.0502619807
+2	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2012771525	0.1012771525
+2	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2081143939	0.08811439386
+2	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.3010689596	0.1989310404
+2	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.289539494	0.009539493974
+2	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3079986669	0.2279986669
+2	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1749827145	0.005017285464
+2	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.2964031863	0.07640318626
+2	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2206154323	0.2993845677
+2	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.1596351764	0.2603648236
+2	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2173984101	0.02260158994
+2	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.3047087603	0.2247087603
+2	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3182576532	0.05825765324
+2	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.250643107	0.05064310695
+2	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2682753394	0.1917246606
+2	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.130000352	0.109999648
+2	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.3510812016	0.2510812016
+2	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1775658294	0.002434170633
+2	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1555554566	0.07555545662
+2	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.3101964761	0.1501964761
+2	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3566822379	0.2233177621
+2	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1665513905	0.02655139051
+2	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.1661765205	0.06617652049
+2	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.4220875421	0.1379124579
+2	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2451845469	0.04518454687
+2	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.4122559733	0.06774402666
+2	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.151598555	0.04840144498
+2	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1867354705	0.1067354705
+2	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2494100011	0.009410001107
+2	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1998683843	0.01986838428
+2	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.1547918832	0.2652081168
+2	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.5265030714	0.2265030714
+2	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1188366611	0.01883666109
+2	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.1607120935	0.0007120935313
+2	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2265902338	0.04659023381
+2	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.3072879427	0.1127120573
+2	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.30540973	0.06540973
+2	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.4313021761	0.3313021761
+2	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2502546441	0.03025464409
+2	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1210421456	0.05895785438
+2	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1974010342	0.3025989658
+2	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.5019195049	0.06191950494
+2	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1808858645	0.0008858644961
+2	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.1322668492	0.03226684923
+2	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1849277813	0.09507221866
+2	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2908377985	0.07083779846
+2	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1788705608	0.2211294392
+2	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2250912081	0.03490879189
+2	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3052004327	0.1852004327
+2	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1592168588	0.03921685879
+2	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3149170215	0.1549170215
+2	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1647536378	0.3752463622
+2	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.361112482	0.181112482
+2	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1808285422	0.02082854218
+2	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2163392413	0.1163392413
+2	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2456145753	0.04561457534
+2	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3572176412	0.1827823588
+2	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.4331988097	0.02680119029
+2	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2289441434	0.01105585655
+2	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.1794581962	0.0794581962
+2	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1583988506	0.04160114936
+2	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1204298078	0.07957019218
+2	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3144523397	0.1655476603
+2	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.3818447643	0.1618447643
+2	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1832730883	0.08327308825
+3	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.3578094846	0.2578094846
+3	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2220592292	0.1020592292
+3	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.1413481283	0.3586518717
+3	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2787831579	0.001216842073
+3	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3369713778	0.2569713778
+3	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1065096444	0.07349035564
+3	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.3857936614	0.1657936614
+3	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1707253165	0.3492746835
+3	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2361580409	0.1838419591
+3	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.212776118	0.027223882
+3	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.2599739645	0.1799739645
+3	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2910918766	0.03109187656
+3	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.3050181737	0.1050181737
+3	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2554259421	0.2045740579
+3	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1602219884	0.07977801159
+3	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2793338958	0.1793338958
+3	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1747394973	0.00526050269
+3	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1333606592	0.05336065923
+3	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2817366647	0.1217366647
+3	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.4101631788	0.1698368212
+3	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1797991009	0.03979910089
+3	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.1988254304	0.09882543035
+3	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3715248335	0.1884751665
+3	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2498506353	0.04985063526
+3	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.477797599	0.002202401046
+3	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1232690593	0.07673094071
+3	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2464053598	0.1664053598
+3	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.1525279819	0.08747201809
+3	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.07891212802	0.101087872
+3	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.1249004733	0.2950995267
+3	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.6173367904	0.3173367904
+3	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1788506083	0.07885060834
+3	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.237689261	0.07768926095
+3	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.1724707908	0.007529209161
+3	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2672194247	0.1527805753
+3	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3226205235	0.08262052352
+3	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3464996686	0.2464996686
+3	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3407251484	0.1207251484
+3	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1241194519	0.05588054811
+3	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1886557311	0.3113442689
+3	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3984317537	0.04156824628
+3	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1281622613	0.05183773868
+3	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2765404945	0.1765404945
+3	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1968654905	0.08313450952
+3	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3726318648	0.1526318648
+3	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.161156442	0.238843558
+3	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2131345302	0.04686546976
+3	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2530771629	0.1330771629
+3	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1296323079	0.009632307875
+3	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3368590198	0.1768590198
+3	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1579278505	0.3820721495
+3	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.3755808219	0.1955808219
+3	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.2585257697	0.09852576969
+3	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.1686816304	0.06868163042
+3	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2135604847	0.0135604847
+3	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3592321152	0.1807678848
+3	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.3785586401	0.0814413599
+3	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2249377683	0.01506223175
+3	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2357313949	0.1357313949
+3	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1607721968	0.03922780324
+3	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1244677313	0.07553226868
+3	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.2284578083	0.2515421917
+3	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.4518924217	0.2318924217
+3	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1951820387	0.09518203866
+4	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2928756883	0.1928756883
+4	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2833968242	0.1633968242
+4	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.1818685022	0.3181314978
+4	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2418589854	0.03814101462
+4	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3666693433	0.2866693433
+4	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1610807039	0.01891929611
+4	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.2674511085	0.04745110848
+4	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2047988443	0.3152011557
+4	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2960181471	0.1239818529
+4	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2176378842	0.02236211576
+4	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.3050600401	0.2250600401
+4	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.1812839286	0.07871607138
+4	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.5352805886	0.3352805886
+4	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.121373333	0.338626667
+4	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1372961409	0.1027038591
+4	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2060499375	0.1060499375
+4	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.20414016	0.02414016
+4	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1181586195	0.03815861952
+4	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.3382054943	0.1782054943
+4	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3394957262	0.2405042738
+4	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1451078014	0.005107801411
+4	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.219302452	0.119302452
+4	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3923154808	0.1676845192
+4	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2432742657	0.04327426572
+4	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3483943042	0.1316056958
+4	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1356343277	0.06436567229
+4	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2514926337	0.1714926337
+4	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2644787345	0.02447873446
+4	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.2500253742	0.07002537424
+4	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.172694814	0.247305186
+4	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.4078660171	0.1078660171
+4	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1694137948	0.06941379475
+4	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2605612562	0.1005612562
+4	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2325136577	0.0525136577
+4	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2206815916	0.1993184084
+4	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2862434945	0.04624349455
+4	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.2952742967	0.1952742967
+4	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.4005146626	0.1805146626
+4	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1326798432	0.04732015683
+4	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1715311975	0.3284688025
+4	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.358182326	0.08181767402
+4	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1578927107	0.0221072893
+4	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.3065443659	0.2065443659
+4	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1773805974	0.1026194026
+4	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3927653486	0.1727653486
+4	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.0965082579	0.3034917421
+4	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2399963796	0.02000362038
+4	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2707300139	0.1507300139
+4	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1778418562	0.05784185617
+4	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3549172006	0.1949172006
+4	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.2596737865	0.2803262135
+4	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2075671567	0.02756715672
+4	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1644095801	0.004409580127
+4	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2552345186	0.1552345186
+4	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.1813543836	0.0186456164
+4	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3990015177	0.1409984823
+4	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.5165290739	0.05652907394
+4	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.1817708371	0.05822916288
+4	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.167674243	0.06767424303
+4	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1340258459	0.06597415409
+4	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.04808042062	0.1519195794
+4	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.4486488768	0.03135112317
+4	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2798119463	0.05981194631
+4	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.2234587562	0.1234587562
+5	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.3187432018	0.2187432018
+5	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1839020728	0.06390207284
+5	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2264010049	0.2735989951
+5	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2709537205	0.009046279532
+5	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3645027213	0.2845027213
+5	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1332017372	0.04679826276
+5	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.337439556	0.117439556
+5	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1648559855	0.3551440145
+5	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2364174054	0.1835825946
+5	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2816136898	0.04161368979
+5	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.2209504427	0.1409504427
+5	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2610184621	0.001018462121
+5	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2895456724	0.08954567241
+5	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2597911406	0.2002088594
+5	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.2069192206	0.03308077939
+5	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2437439664	0.1437439664
+5	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1310683425	0.04893165745
+5	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1887549353	0.1087549353
+5	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.3476923596	0.1876923596
+5	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3324843626	0.2475156374
+5	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1181706429	0.02182935711
+5	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.3069720035	0.2069720035
+5	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3443991198	0.2156008802
+5	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2304582338	0.03045823378
+5	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.4689712753	0.01102872467
+5	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1216837784	0.07831622159
+5	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2019481329	0.1219481329
+5	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2073968134	0.03260318664
+5	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1819390404	0.001939040403
+5	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.1557586545	0.2642413455
+5	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.4738702804	0.1738702804
+5	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1884320247	0.0884320247
+5	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.1977496126	0.03774961259
+5	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2553898196	0.07538981963
+5	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2508499485	0.1691500515
+5	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2960106193	0.05601061932
+5	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3488633165	0.2488633165
+5	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3413383798	0.1213383798
+5	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1318186141	0.04818138594
+5	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1779796896	0.3220203104
+5	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3342247785	0.1057752215
+5	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2103996749	0.0303996749
+5	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.238544145	0.138544145
+5	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.2168314016	0.06316859837
+5	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3202329513	0.1002329513
+5	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1622407995	0.2377592005
+5	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2270838612	0.03291613881
+5	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.290442388	0.170442388
+5	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1939418684	0.07394186837
+5	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.2622447849	0.1022447849
+5	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.2047635321	0.3352364679
+5	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.3390498147	0.1590498147
+5	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.2401153175	0.08011531747
+5	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.211041987	0.111041987
+5	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.195427069	0.004572930996
+5	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3534156265	0.1865843735
+5	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.3258708862	0.1341291138
+5	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.270293216	0.03029321596
+5	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2748361992	0.1748361992
+5	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1289996986	0.07100030137
+5	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.08499862814	0.1150013719
+5	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3571440188	0.1228559812
+5	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.3222141353	0.1022141353
+5	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.2356432178	0.1356432178
+6	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2623505289	0.1623505289
+6	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1840334657	0.06403346569
+6	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.235000905	0.264999095
+6	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.3186151003	0.03861510033
+6	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2415695717	0.1615695717
+6	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.09089642708	0.08910357292
+6	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.4483071175	0.2283071175
+6	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2192268838	0.3007731162
+6	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2160874058	0.2039125942
+6	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.281849248	0.04184924803
+6	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1682907639	0.08829076388
+6	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3337725822	0.07377258225
+6	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2421218559	0.04212185593
+6	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.3432473786	0.1167526214
+6	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1670702567	0.07292974326
+6	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2475605088	0.1475605088
+6	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1857684002	0.005768400239
+6	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1886610261	0.1086610261
+6	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2930595569	0.1330595569
+6	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3325110167	0.2474889833
+6	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.2593754321	0.1193754321
+6	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2726971763	0.1726971763
+6	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.2150609432	0.3449390568
+6	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2528664484	0.05286644844
+6	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.320205842	0.159794158
+6	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1525090354	0.04749096461
+6	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2307522316	0.1507522316
+6	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.296532891	0.056532891
+6	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.218584908	0.038584908
+6	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2480685168	0.1719314832
+6	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3012262224	0.001226222361
+6	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.2321203528	0.1321203528
+6	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2525758179	0.09257581788
+6	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.1846043763	0.004604376294
+6	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2821867077	0.1378132923
+6	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2806330982	0.04063309817
+6	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.2563819303	0.1563819303
+6	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.344652699	0.124652699
+6	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1873710325	0.007371032467
+6	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.2115943383	0.2884056617
+6	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.2564051406	0.1835948594
+6	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2697827537	0.08978275372
+6	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2489951526	0.1489951526
+6	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.2248169531	0.05518304687
+6	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3874777702	0.1674777702
+6	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.2040509716	0.1959490284
+6	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1453253192	0.1146746808
+6	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2631459391	0.1431459391
+6	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.4016802778	0.2816802778
+6	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.1957630308	0.0357630308
+6	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1199022341	0.4200977659
+6	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2826544574	0.1026544574
+6	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.2284097295	0.06840972948
+6	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2544155706	0.1544155706
+6	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2116401453	0.01164014528
+6	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3055345547	0.2344654453
+6	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.1241275927	0.3358724073
+6	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2698989111	0.02989891114
+6	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.4430991892	0.3430991892
+6	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1628743069	0.03712569306
+6	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.0842608169	0.1157391831
+6	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3884844295	0.09151557049
+6	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2976642321	0.07766423212
+6	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.2295905215	0.1295905215
+7	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2174888155	0.1174888155
+7	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1732327736	0.05323277362
+7	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2850017015	0.2149982985
+7	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.3242767094	0.04427670938
+7	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.1889429633	0.1089429633
+7	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1004437756	0.07955622445
+7	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.5387970121	0.3187970121
+7	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1718162491	0.3481837509
+7	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.3623900687	0.05760993132
+7	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2983363957	0.05833639574
+7	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.08482350979	0.004823509785
+7	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2544500258	0.005549974208
+7	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.3749712818	0.1749712818
+7	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2865588591	0.1734411409
+7	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.0636942028	0.1763057972
+7	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2747756563	0.1747756563
+7	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1267684063	0.05323159365
+7	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.2002875711	0.1202875711
+7	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.3774723202	0.2174723202
+7	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.2954717023	0.2845282977
+7	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1211912566	0.01880874336
+7	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2080360851	0.1080360851
+7	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3637872523	0.1962127477
+7	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.3069854059	0.1069854059
+7	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3083120954	0.1716879046
+7	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1138640439	0.08613595609
+7	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.3316335863	0.2516335863
+7	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2461902744	0.00619027443
+7	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.3187260536	0.1387260536
+7	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2120300143	0.2079699857
+7	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3401624943	0.0401624943
+7	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1290814378	0.0290814378
+7	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2677050675	0.1077050675
+7	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.1332890456	0.04671095442
+7	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2492051298	0.1707948702
+7	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3498007571	0.1098007571
+7	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3220169784	0.2220169784
+7	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.377398479	0.157398479
+7	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1058060143	0.07419398574
+7	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1947785283	0.3052214717
+7	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3674192698	0.07258073019
+7	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.197483047	0.01748304702
+7	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2556047536	0.1556047536
+7	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1794929296	0.1005070704
+7	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2850324808	0.06503248079
+7	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1927944466	0.2072055534
+7	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2449301168	0.01506988317
+7	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2772429557	0.1572429557
+7	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.2889218221	0.1689218221
+7	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.2605801316	0.1005801316
+7	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1733804587	0.3666195413
+7	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2771175876	0.09711758759
+7	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1981752613	0.03817526133
+7	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.1681175141	0.06811751414
+7	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.213969498	0.01396949802
+7	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.4197377265	0.1202622735
+7	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.2356946401	0.2243053599
+7	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2051869289	0.0348130711
+7	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.4003810727	0.3003810727
+7	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1587373583	0.04126264173
+7	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1368315968	0.06316840325
+7	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3240625646	0.1559374354
+7	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.3298568713	0.1098568713
+7	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.2092489673	0.1092489673
+8	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.3000971376	0.2000971376
+8	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2670728454	0.1470728454
+8	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2051470639	0.2948529361
+8	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.227682953	0.05231704698
+8	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3194136559	0.2394136559
+8	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.2497180418	0.06971804178
+8	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.2742863965	0.05428639655
+8	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1565819057	0.3634180943
+8	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.29457398	0.12542602
+8	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.1646012001	0.07539879987
+8	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.2884323965	0.2084323965
+8	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2523924234	0.007607576613
+8	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.6077993389	0.4077993389
+8	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.1520205641	0.3079794359
+8	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.07574888846	0.1642511115
+8	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.1644312085	0.06443120847
+8	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1445988193	0.03540118066
+8	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.2074696036	0.1274696036
+8	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2521735623	0.09217356228
+8	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3957580147	0.1842419853
+8	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1289385498	0.01106145016
+8	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2307119598	0.1307119598
+8	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3416051815	0.2183948185
+8	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2987443089	0.09874430888
+8	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3832448064	0.09675519364
+8	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.2089552224	0.008955222439
+8	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.227402872	0.147402872
+8	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.1803970992	0.05960290085
+8	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.308510226	0.128510226
+8	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.168706929	0.251293071
+8	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3516278566	0.05162785656
+8	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1711549884	0.07115498842
+8	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2833499372	0.1233499372
+8	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.1782733851	0.001726614865
+8	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.1932821478	0.2267178522
+8	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3450945299	0.1050945299
+8	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3588023948	0.2588023948
+8	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2661911962	0.04619119623
+8	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.2112243915	0.0312243915
+8	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1637820175	0.3362179825
+8	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3374090633	0.1025909367
+8	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1420924899	0.03790751013
+8	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.3410123393	0.2410123393
+8	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1794861076	0.1005138924
+8	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3320644249	0.1120644249
+8	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1793122834	0.2206877166
+8	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2329777323	0.02702226772
+8	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2556455594	0.1356455594
+8	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.3555522489	0.2355522489
+8	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.2875503271	0.1275503271
+8	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1114902031	0.4285097969
+8	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2454072209	0.06540722093
+8	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.2180642556	0.05806425563
+8	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2555659709	0.1555659709
+8	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.1565990515	0.04340094854
+8	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.369770722	0.170229278
+8	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.2335923375	0.2264076625
+8	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.3224586256	0.08245862563
+8	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2940122448	0.1940122448
+8	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1499367921	0.05006320793
+8	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1034426795	0.09655732046
+8	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3690778673	0.1109221327
+8	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.3441208127	0.1241208127
+8	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1833586405	0.08335864049
+9	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.187061654	0.08706165402
+9	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2277992983	0.1077992983
+9	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.3487612702	0.1512387298
+9	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2363777775	0.04362222247
+9	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2934293335	0.2134293335
+9	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1572254481	0.02277455195
+9	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.3762216701	0.1562216701
+9	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1731235483	0.3468764517
+9	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.3290886787	0.09091132125
+9	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.1800031214	0.0599968786
+9	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1568510062	0.07685100621
+9	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3340571936	0.07405719364
+9	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.3079823932	0.1079823932
+9	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2826946822	0.1773053178
+9	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1056591619	0.1343408381
+9	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.3036637627	0.2036637627
+9	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1857353913	0.005735391293
+9	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1483254717	0.06832547168
+9	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.3095789014	0.1495789014
+9	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3563602356	0.2236397644
+9	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1428246998	0.002824699764
+9	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2881299906	0.1881299906
+9	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3294849408	0.2305150592
+9	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2395603688	0.03956036885
+9	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3924805728	0.08751942725
+9	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1364866169	0.06351338307
+9	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2153347518	0.1353347518
+9	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2556980586	0.01569805855
+9	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1500124334	0.02998756662
+9	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2762334494	0.1437665506
+9	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3955324126	0.09553241262
+9	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1782217046	0.07822170456
+9	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2276799541	0.06767995408
+9	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2241699383	0.04416993832
+9	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2177918758	0.2022081242
+9	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3303582318	0.09035823181
+9	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.2888996208	0.1888996208
+9	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3550797229	0.1350797229
+9	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1952531379	0.01525313788
+9	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1607675185	0.3392324815
+9	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3140057054	0.1259942946
+9	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2095235597	0.02952355965
+9	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2717311544	0.1717311544
+9	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.2047395806	0.07526041943
+9	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3403450763	0.1203450763
+9	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1819595784	0.2180404216
+9	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1702841075	0.08971589248
+9	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3074112377	0.1874112377
+9	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.270932807	0.150932807
+9	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3427773132	0.1827773132
+9	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1387199302	0.4012800698
+9	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2475699496	0.06756994959
+9	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.2310163973	0.07101639726
+9	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2396301044	0.1396301044
+9	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.17552762	0.02447237999
+9	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3538258784	0.1861741216
+9	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.2481476936	0.2118523064
+9	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2343023529	0.005697647057
+9	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.4245225461	0.3245225461
+9	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.09302740743	0.1069725926
+9	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.04286906834	0.1571309317
+9	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.4403712074	0.03962879256
+9	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.284322461	0.06432246105
+9	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.2324372632	0.1324372632
+10	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2538962658	0.1538962658
+10	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2283835537	0.1083835537
+10	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2456962937	0.2543037063
+10	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2720238867	0.007976113291
+10	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2391333249	0.1591333249
+10	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1155730775	0.0644269225
+10	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.3739299167	0.1539299167
+10	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2713636809	0.2486363191
+10	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.1707550447	0.2492449553
+10	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.255991117	0.01599111705
+10	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.2050487242	0.1250487242
+10	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.368205114	0.108205114
+10	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2332540744	0.03325407439
+10	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.3957254463	0.06427455367
+10	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1098239177	0.1301760823
+10	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2611965616	0.1611965616
+10	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1931949497	0.0131949497
+10	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1713313383	0.09133133831
+10	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.3070678911	0.1470678911
+10	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3284058209	0.2515941791
+10	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1655901021	0.02559010214
+10	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.278014112	0.178014112
+10	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.2608959694	0.2991040306
+10	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2954998164	0.09549981642
+10	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.4138440854	0.06615591464
+10	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1457267242	0.05427327585
+10	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2433037426	0.1633037426
+10	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.1971254479	0.04287455212
+10	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1264325152	0.05356748481
+10	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.194904485	0.225095515
+10	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.4401328515	0.1401328515
+10	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.2385301483	0.1385301483
+10	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.1604837532	0.0004837531719
+10	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2224053517	0.0424053517
+10	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2599565554	0.1600434446
+10	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3571543397	0.1171543397
+10	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3194290963	0.2194290963
+10	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3899389209	0.1699389209
+10	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.110643122	0.06935687796
+10	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1799888608	0.3200111392
+10	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.334326227	0.105673773
+10	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2615924643	0.08159246427
+10	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.191000001	0.09100000105
+10	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.2130813077	0.06691869227
+10	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3546782194	0.1346782194
+10	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1725457606	0.2274542394
+10	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.199856392	0.06014360796
+10	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.272919628	0.152919628
+10	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1618655181	0.04186551812
+10	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3824794912	0.2224794912
+10	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1942861016	0.3457138984
+10	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2613688891	0.08136888906
+10	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1979252213	0.03792522126
+10	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.26541184	0.16541184
+10	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.235036318	0.03503631796
+10	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3016266208	0.2383733792
+10	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.3540622149	0.1059377851
+10	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2204346174	0.01956538255
+10	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2066587169	0.1066587169
+10	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.2188444507	0.01884445071
+10	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.03800712364	0.1619928764
+10	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3924885415	0.08751145845
+10	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.3662707276	0.1462707276
+10	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.2032336072	0.1032336072
+11	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.3226930677	0.2226930677
+11	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1777314783	0.05773147829
+11	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.247279051	0.252720949
+11	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.252296403	0.02770359699
+11	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3541113468	0.2741113468
+11	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1227192762	0.05728072382
+11	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.3043519386	0.08435193858
+11	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2188174384	0.3011825616
+11	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2216295039	0.1983704961
+11	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2750498916	0.03504989158
+11	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1988302677	0.1188302677
+11	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3044903368	0.04449033683
+11	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2463681248	0.04636812478
+11	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2555197559	0.2044802441
+11	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.2141481509	0.0258518491
+11	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2839639685	0.1839639685
+11	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1735494285	0.006450571489
+11	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1893181743	0.1093181743
+11	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2604191599	0.1004191599
+11	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3767132373	0.2032867627
+11	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1654862068	0.02548620677
+11	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2653585413	0.1653585413
+11	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.2708264289	0.2891735711
+11	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2983288231	0.09832882308
+11	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.4305001913	0.04949980869
+11	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1433462034	0.05665379662
+11	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1711405012	0.0911405012
+11	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2550131041	0.0150131041
+11	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.2351192861	0.05511928606
+11	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.1997792812	0.2202207188
+11	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3744172063	0.07441720632
+11	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1906842264	0.09068422641
+11	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2982949168	0.1382949168
+11	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.171322874	0.008677125994
+11	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2476778842	0.1723221158
+11	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.282704325	0.04270432501
+11	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.2966042478	0.1966042478
+11	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3161536809	0.09615368087
+11	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1780692252	0.00193077484
+11	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.2091728461	0.2908271539
+11	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.4970265538	0.05702655376
+11	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1546566569	0.02534334312
+11	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.157019275	0.05701927496
+11	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1912975144	0.0887024856
+11	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2563484053	0.0363484053
+11	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.2301150229	0.1698849771
+11	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2313988486	0.02860115141
+11	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2821377232	0.1621377232
+11	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1729763005	0.05297630053
+11	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.4390669384	0.2790669384
+11	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1527078469	0.3872921531
+11	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2352489142	0.05524891423
+11	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1666356444	0.006635644373
+11	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2969190183	0.1969190183
+11	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2352028855	0.0352028855
+11	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3012424518	0.2387575482
+11	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.3540586586	0.1059413414
+11	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2914231512	0.05142315116
+11	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.1859792317	0.08597923173
+11	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1685389585	0.03146104153
+11	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.149569579	0.05043042101
+11	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3884513319	0.09154866815
+11	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2778953128	0.05789531278
+11	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1840837764	0.08408377638
+12	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.3013659624	0.2013659624
+12	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2181804378	0.09818043781
+12	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2459955877	0.2540044123
+12	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2344580121	0.04554198785
+12	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3825665881	0.3025665881
+12	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.06956304114	0.1104369589
+12	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.4318459039	0.2118459039
+12	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1160244669	0.4039755331
+12	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.3543844436	0.06561555643
+12	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2039102546	0.03608974538
+12	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1324018214	0.05240182143
+12	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3093034804	0.04930348037
+12	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2880145787	0.08801457865
+12	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.3389889698	0.1210110302
+12	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1176355362	0.1223644638
+12	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2553609153	0.1553609153
+12	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.2360110895	0.05601108951
+12	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1302854577	0.05028545769
+12	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2500688	0.09006880004
+12	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3836346528	0.1963653472
+12	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.2340869379	0.09408693787
+12	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2178538576	0.1178538576
+12	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.2710160762	0.2889839238
+12	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2770431283	0.0770431283
+12	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3457604072	0.1342395928
+12	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1430513351	0.05694866488
+12	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1909814445	0.1109814445
+12	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.3202068132	0.08020681321
+12	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1756422825	0.004357717489
+12	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2110407585	0.2089592415
+12	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.4730934258	0.1730934258
+12	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1402235332	0.04022353316
+12	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.235654009	0.07565400897
+12	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.1536037059	0.02639629413
+12	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.3008267304	0.1191732696
+12	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3099155547	0.06991555472
+12	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.2901763895	0.1901763895
+12	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2898786817	0.06987868172
+12	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.2253735122	0.0453735122
+12	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1945714166	0.3054285834
+12	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.5341433376	0.09414333763
+12	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1132297897	0.06677021031
+12	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2303542311	0.1303542311
+12	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1222726416	0.1577273584
+12	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3626757681	0.1426757681
+12	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.212121482	0.187878518
+12	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1537832346	0.1062167654
+12	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2714195153	0.1514195153
+12	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.2434876726	0.1234876726
+12	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3777101465	0.2177101465
+12	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1269580204	0.4130419796
+12	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2518441606	0.07184416057
+12	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1178975786	0.04210242137
+12	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.3044956247	0.2044956247
+12	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2276115596	0.0276115596
+12	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3499952371	0.1900047629
+12	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.2752231866	0.1847768134
+12	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.3620925133	0.1220925133
+12	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2267060737	0.1267060737
+12	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1359782265	0.06402177353
+12	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1629793841	0.03702061594
+12	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.4102024951	0.06979750489
+12	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2459507226	0.02595072256
+12	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1808673983	0.08086739827
+13	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2118985103	0.1118985103
+13	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1785344701	0.05853447006
+13	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.332270253	0.167729747
+13	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2772967666	0.002703233353
+13	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2648965886	0.1848965886
+13	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1380845171	0.04191548288
+13	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.3503021703	0.1303021703
+13	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.246716724	0.273283276
+13	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2374579107	0.1825420893
+13	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.3297250902	0.08972509023
+13	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1181805503	0.03818055034
+13	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3146364487	0.05463644873
+13	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2726716338	0.07267163379
+13	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.3242683245	0.1357316755
+13	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1474341856	0.09256581435
+13	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2556258561	0.1556258561
+13	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.2713689718	0.09136897185
+13	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1682378133	0.0882378133
+13	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2652432022	0.1052432022
+13	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.2951500127	0.2848499873
+13	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1801150163	0.04011501634
+13	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2695270815	0.1695270815
+13	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3159921948	0.2440078052
+13	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2343657074	0.03436570736
+13	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.2325083051	0.2474916949
+13	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1933262916	0.00667370838
+13	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2609507823	0.1809507823
+13	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.3132146209	0.07321462094
+13	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1057682433	0.07423175666
+13	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.3888147464	0.03118525358
+13	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3328002913	0.03280029132
+13	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1726167189	0.07261671891
+13	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2113014579	0.05130145794
+13	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.1994723875	0.0194723875
+13	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2912020768	0.1287979232
+13	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2980240778	0.05802407778
+13	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3137072919	0.2137072919
+13	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3479013977	0.1279013977
+13	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1533227737	0.02667722634
+13	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1850685368	0.3149314632
+13	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.2759058459	0.1640941541
+13	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2464155387	0.06641553872
+13	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2663033485	0.1663033485
+13	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.2113752669	0.06862473306
+13	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3258993251	0.1058993251
+13	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1964461542	0.2035538458
+13	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1979143851	0.06208561494
+13	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2797401357	0.1597401357
+13	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.3031477111	0.1831477111
+13	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3553132024	0.1953132024
+13	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1261605341	0.4138394659
+13	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2153785524	0.03537855244
+13	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1467308564	0.01326914355
+13	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2182759374	0.1182759374
+13	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2136122581	0.01361225812
+13	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.421380948	0.118619052
+13	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.3330126613	0.1269873387
+13	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2721961688	0.03219616883
+13	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2257971422	0.1257971422
+13	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1689940277	0.0310059723
+13	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.05594141869	0.1440585813
+13	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.5032206628	0.02322066283
+13	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.3437857236	0.1237857236
+13	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.09705219488	0.002947805122
+14	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.4841507308	0.3841507308
+14	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1553830179	0.03538301785
+14	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.1799737597	0.3200262403
+14	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.1804924916	0.09950750844
+14	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2049797042	0.1249797042
+14	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1210515184	0.05894848164
+14	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.5112575335	0.2912575335
+14	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1627112439	0.3572887561
+14	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2643437718	0.1556562282
+14	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.3589892084	0.1189892084
+14	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.14987282	0.06987281997
+14	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2267941998	0.03320580017
+14	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.498919442	0.298919442
+14	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2057640476	0.2542359524
+14	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.09172578434	0.1482742157
+14	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.203590726	0.103590726
+14	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.3667389015	0.1867389015
+14	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1377161633	0.05771616333
+14	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2106334521	0.05063345214
+14	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.2849114831	0.2950885169
+14	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.2614578618	0.1214578618
+14	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2480211929	0.1480211929
+14	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.2508144104	0.3091855896
+14	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2397065349	0.03970653491
+14	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.1677624826	0.3122375174
+14	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.2045652868	0.004565286841
+14	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2695917106	0.1895917106
+14	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.3580805199	0.1180805199
+14	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1378510061	0.04214899388
+14	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.302203716	0.117796284
+14	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.4301316157	0.1301316157
+14	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1298136622	0.02981366218
+14	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.1994483976	0.03944839758
+14	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.3131674259	0.1331674259
+14	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.1756159965	0.2443840035
+14	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.31176818	0.07176818
+14	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3709202312	0.2709202312
+14	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3293329048	0.1093329048
+14	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1391770994	0.04082290062
+14	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1605697646	0.3394302354
+14	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3796274685	0.06037253148
+14	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2379806134	0.0579806134
+14	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2288106537	0.1288106537
+14	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1535812644	0.1264187356
+14	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2816755991	0.0616755991
+14	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1586438164	0.2413561836
+14	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.254273532	0.005726468042
+14	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3054070526	0.1854070526
+14	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.2690735526	0.1490735526
+14	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.4457348591	0.2857348591
+14	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1146769666	0.4253230334
+14	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.1705146217	0.009485378299
+14	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1388394637	0.02116053633
+14	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.1778157545	0.07781575451
+14	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2051978439	0.005197843939
+14	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.4781469379	0.06185306211
+14	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.4181120401	0.04188795985
+14	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2632941245	0.02329412453
+14	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.1621159419	0.06211594189
+14	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1564778934	0.04352210657
+14	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.06111423261	0.1388857674
+14	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.5384837288	0.05848372883
+14	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2734388582	0.05343885819
+14	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1269631804	0.02696318037
+15	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2998763795	0.1998763795
+15	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1716854468	0.05168544681
+15	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.259219175	0.240780825
+15	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2692189987	0.01078100129
+15	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3170721343	0.2370721343
+15	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1192967487	0.06070325127
+15	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.3549403521	0.1349403521
+15	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2086907649	0.3113092351
+15	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2098759904	0.2101240096
+15	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.3120031365	0.07200313649
+15	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1427961168	0.06279611676
+15	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3353247563	0.07532475635
+15	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2766139985	0.07661399853
+15	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.1921677709	0.2678322291
+15	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.2774985454	0.03749854537
+15	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2537196852	0.1537196852
+15	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1580594408	0.02194055924
+15	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1882675531	0.1082675531
+15	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2582808903	0.09828089031
+15	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3953921158	0.1846078842
+15	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.2029603757	0.06296037567
+15	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2359465715	0.1359465715
+15	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3076851803	0.2523148197
+15	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2534078726	0.05340787256
+15	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.4205467557	0.05945324435
+15	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.2139270362	0.01392703623
+15	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1857219603	0.1057219603
+15	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.1798042478	0.06019575215
+15	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1654902953	0.01450970473
+15	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.244505219	0.175494781
+15	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3443215183	0.04432151828
+15	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.2456829674	0.1456829674
+15	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.1850453861	0.02504538614
+15	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.288446818	0.108446818
+15	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.235819958	0.184180042
+15	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2906878379	0.05068783787
+15	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3845897677	0.2845897677
+15	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2543411824	0.0343411824
+15	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1742040367	0.005795963286
+15	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1868650132	0.3131349868
+15	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3567233794	0.08327662056
+15	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2018074377	0.02180743768
+15	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2241301332	0.1241301332
+15	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.2173390496	0.06266095035
+15	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3029775228	0.08297752277
+15	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1885255616	0.2114744384
+15	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2358704883	0.02412951172
+15	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2726264273	0.1526264273
+15	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1043837979	0.01561620213
+15	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.4960101245	0.3360101245
+15	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1579744182	0.3820255818
+15	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2416316595	0.06163165947
+15	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1408056036	0.01919439639
+15	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2753554886	0.1753554886
+15	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2569142338	0.0569142338
+15	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.326924674	0.213075326
+15	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.369192905	0.09080709497
+15	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2196422402	0.02035775978
+15	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.1963929177	0.09639291771
+15	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.214771937	0.01477193704
+15	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.2395087443	0.03950874434
+15	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3303195196	0.1496804804
+15	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.276648144	0.05664814397
+15	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1535235921	0.05352359208
+16	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2524335885	0.1524335885
+16	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2441182319	0.1241182319
+16	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.3162594563	0.1837405437
+16	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.1871887233	0.09281127667
+16	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2730953104	0.1930953104
+16	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1459256698	0.03407433024
+16	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.3946212086	0.1746212086
+16	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1863578113	0.3336421887
+16	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.3404800923	0.07951990775
+16	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2274714188	0.01252858117
+16	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1349461132	0.05494611323
+16	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2971023757	0.03710237569
+16	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.4391260349	0.2391260349
+16	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.1916296781	0.2683703219
+16	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1233440775	0.1166559225
+16	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2459002095	0.1459002095
+16	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1924871383	0.01248713833
+16	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1645016036	0.08450160362
+16	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2292365215	0.06923652152
+16	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.4137747365	0.1662252635
+16	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.156913295	0.016913295
+16	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.1824416385	0.08244163851
+16	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.4434737593	0.1165262407
+16	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2171713072	0.01717130718
+16	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.4678999839	0.01210001606
+16	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1618393143	0.0381606857
+16	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1838160314	0.1038160314
+16	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.1864446703	0.05355532967
+16	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1264082474	0.05359175265
+16	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2246421292	0.1953578708
+16	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.4300570233	0.1300570233
+16	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.2188926002	0.1188926002
+16	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2683502429	0.1083502429
+16	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2591762673	0.07917626735
+16	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.1832035761	0.2367964239
+16	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2892699137	0.04926991365
+16	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3601285254	0.2601285254
+16	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2434812765	0.02348127646
+16	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1997593233	0.01975932332
+16	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1966308748	0.3033691252
+16	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3578261073	0.08217389274
+16	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1634107522	0.01658924776
+16	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2810822088	0.1810822088
+16	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1976809317	0.08231906825
+16	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3285157402	0.1085157402
+16	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1553407936	0.2446592064
+16	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.215634585	0.04436541502
+16	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3005088813	0.1805088813
+16	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1479298422	0.02792984215
+16	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.4021277986	0.2421277986
+16	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.213981145	0.326018855
+16	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2359612142	0.05596121419
+16	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1328476111	0.02715238894
+16	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2548070073	0.1548070073
+16	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.3123706816	0.1123706816
+16	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.2999747001	0.2400252999
+16	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.2487190527	0.2112809473
+16	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2572610233	0.01726102327
+16	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2263138968	0.1263138968
+16	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.2677060273	0.06770602727
+16	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.2998463847	0.09984638472
+16	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.2601596047	0.2198403953
+16	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2301792301	0.01017923009
+16	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.2098147805	0.1098147805
+17	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.3467631096	0.2467631096
+17	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1721495885	0.05214958852
+17	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2281926931	0.2718073069
+17	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2528946087	0.02710539128
+17	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2035708148	0.1235708148
+17	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1101388134	0.06986118664
+17	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.4270404268	0.2070404268
+17	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.259249945	0.260750055
+17	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2373507597	0.1826492403
+17	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.3579184585	0.1179184585
+17	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1710583986	0.09105839864
+17	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2336723831	0.02632761686
+17	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.3206874502	0.1206874502
+17	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.184953979	0.275046021
+17	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1776075749	0.06239242509
+17	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.3167509959	0.2167509959
+17	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.2594214187	0.07942141873
+17	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1665302998	0.08653029981
+17	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2666925197	0.1066925197
+17	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3073557618	0.2726442382
+17	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1555963831	0.01559638306
+17	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.3351411856	0.2351411856
+17	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.2872208029	0.2727791971
+17	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2220416284	0.02204162842
+17	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.2342237859	0.2457762141
+17	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1262173972	0.07378260279
+17	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.3541443908	0.2741443908
+17	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2854144261	0.04541442609
+17	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.284807188	0.104807188
+17	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2530594268	0.1669405732
+17	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.2952202956	0.004779704371
+17	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1669130896	0.06691308958
+17	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2054101022	0.04541010218
+17	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2130962533	0.03309625327
+17	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2765800471	0.1434199529
+17	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3049135975	0.06491359748
+17	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.2737130001	0.1737130001
+17	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3511059973	0.1311059973
+17	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.123013673	0.05698632697
+17	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.2521673296	0.2478326704
+17	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.462908117	0.02290811699
+17	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2252221203	0.04522212032
+17	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.1663839646	0.06638396463
+17	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1454857981	0.1345142019
+17	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3327941095	0.1127941095
+17	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1613720794	0.2386279206
+17	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2141459528	0.0458540472
+17	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2916878583	0.1716878583
+17	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1043603101	0.01563968986
+17	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.5088311827	0.3488311827
+17	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.2092236103	0.3307763897
+17	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.177584897	0.002415103049
+17	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.07480031865	0.08519968135
+17	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.3169764909	0.2169764909
+17	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2517055055	0.05170550552
+17	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3565176849	0.1834823151
+17	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.4781822516	0.0181822516
+17	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2536746187	0.01367461874
+17	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.1329212898	0.03292128981
+17	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1352218398	0.06477816015
+17	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1970333885	0.002966611464
+17	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3640869911	0.1159130089
+17	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2419058919	0.02190589195
+17	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1969737284	0.09697372841
+18	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.4111763959	0.3111763959
+18	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1005921464	0.01940785364
+18	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2560587984	0.2439412016
+18	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2321726594	0.04782734065
+18	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2625840599	0.1825840599
+18	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.08242487215	0.09757512785
+18	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.4830145282	0.2630145282
+18	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1719765397	0.3480234603
+18	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.1789150144	0.2410849856
+18	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.4224197778	0.1824197778
+18	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1195145851	0.03951458505
+18	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2791506227	0.01915062273
+18	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.3329474713	0.1329474713
+18	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2347140333	0.2252859667
+18	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1313188739	0.1086811261
+18	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.3010196215	0.2010196215
+18	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1920014034	0.01200140338
+18	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.2402400464	0.1602400464
+18	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2787890153	0.1187890153
+18	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.2889695349	0.2910304651
+18	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.2004594234	0.06045942342
+18	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.33547039	0.23547039
+18	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.2684333861	0.2915666139
+18	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.1956368004	0.004363199557
+18	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3644088797	0.1155911203
+18	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1385949333	0.06140506668
+18	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1420379413	0.06203794125
+18	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.3549582457	0.1149582457
+18	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.164872145	0.01512785499
+18	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2989262766	0.1210737234
+18	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3626774686	0.0626774686
+18	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1735241098	0.0735241098
+18	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2291043343	0.06910433433
+18	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2140057236	0.0340057236
+18	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.244190659	0.175809341
+18	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3126992831	0.07269928306
+18	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3222570096	0.2222570096
+18	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3483311162	0.1283311162
+18	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1696442124	0.01035578762
+18	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1597676618	0.3402323382
+18	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3668690215	0.0731309785
+18	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2672006941	0.08720069405
+18	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.1708068839	0.0708068839
+18	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1951234005	0.08487659946
+18	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3340071597	0.1140071597
+18	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.164607245	0.235392755
+18	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1873709473	0.07262905274
+18	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.314014648	0.194014648
+18	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.2304832516	0.1104832516
+18	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3399750852	0.1799750852
+18	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1324025387	0.4075974613
+18	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2971391245	0.1171391245
+18	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1575830806	0.002416919384
+18	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.1972340452	0.09723404525
+18	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2874133831	0.08741338307
+18	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3577694911	0.1822305089
+18	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.2476004127	0.2123995873
+18	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.3814984049	0.1414984049
+18	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2556746159	0.1556746159
+18	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1152265665	0.08477343349
+18	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1653734703	0.03462652975
+18	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.4910179617	0.01101796166
+18	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2044999372	0.01550006277
+18	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1391086309	0.03910863086
+19	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.1894221336	0.0894221336
+19	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2543859996	0.1343859996
+19	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.3469184406	0.1530815594
+19	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2092734263	0.07072657373
+19	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2732091981	0.1932091981
+19	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.2467727156	0.06677271562
+19	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.3096364099	0.08963640989
+19	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1703816763	0.3496183237
+19	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2585659418	0.1614340582
+19	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.1572196284	0.0827803716
+19	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1667543464	0.08675434638
+19	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.4174600835	0.1574600835
+19	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.3113123287	0.1113123287
+19	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2096933103	0.2503066897
+19	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1545021768	0.08549782324
+19	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.3244921842	0.2244921842
+19	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.2316086749	0.05160867495
+19	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1198252672	0.03982526722
+19	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2084065828	0.04840658279
+19	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.440159475	0.139840525
+19	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.153278766	0.01327876595
+19	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2604949301	0.1604949301
+19	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3509186587	0.2090813413
+19	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2353076452	0.03530764524
+19	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3615185122	0.1184814878
+19	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.2087851409	0.008785140898
+19	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1709506134	0.09095061344
+19	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2587457334	0.01874573343
+19	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1151937493	0.06480625065
+19	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.3515416981	0.06845830194
+19	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3719930507	0.07199305072
+19	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1612715019	0.06127150187
+19	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.203288578	0.04328857803
+19	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2439728277	0.06397282768
+19	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.225993448	0.194006552
+19	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3267451463	0.08674514628
+19	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.339826708	0.239826708
+19	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2624757123	0.04247571225
+19	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1715341587	0.008465841295
+19	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.2261634211	0.2738365789
+19	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.4904331676	0.05043316761
+19	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1568185446	0.02318145537
+19	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.215363613	0.115363613
+19	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1373846747	0.1426153253
+19	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2617763811	0.04177638115
+19	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1956195138	0.2043804862
+19	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1961889295	0.06381107049
+19	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3464151755	0.2264151755
+19	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.0844454423	0.0355545577
+19	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.5576176207	0.3976176207
+19	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1391142949	0.4008857051
+19	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2188226421	0.03882264213
+19	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.09837474591	0.06162525409
+19	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.253979866	0.153979866
+19	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.1991383628	0.0008616371551
+19	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.4485070252	0.09149297478
+19	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.4479092593	0.01209074067
+19	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2485303841	0.008530384149
+19	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.1771422154	0.07714221543
+19	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1264181411	0.07358185891
+19	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.2031002564	0.003100256351
+19	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3801998211	0.09980017893
+19	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.3158204653	0.0958204653
+19	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1008794573	0.0008794572743
+20	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.1555722839	0.05557228389
+20	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.4185403893	0.2985403893
+20	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2669229139	0.2330770861
+20	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.1589644129	0.1210355871
+20	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2171346206	0.1371346206
+20	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1669628356	0.01303716444
+20	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.4461038995	0.2261038995
+20	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1697986443	0.3502013557
+20	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.6376580628	0.2176580628
+20	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.1380075762	0.1019924238
+20	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.06574356366	0.01425643634
+20	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.1585907973	0.1014092027
+20	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.5722494367	0.3722494367
+20	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.111010492	0.348989508
+20	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1557335924	0.08426640759
+20	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.161006479	0.06100647895
+20	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.2486410774	0.06864107743
+20	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.2033472289	0.1233472289
+20	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2112506884	0.05125068836
+20	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3367610054	0.2432389946
+20	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1540233052	0.01402330521
+20	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.269592954	0.169592954
+20	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.29663383	0.26336617
+20	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2797499107	0.07974991073
+20	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3706142101	0.1093857899
+20	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.2269377784	0.02693777837
+20	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1620684343	0.08206843431
+20	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2403795772	0.0003795772374
+20	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1201374124	0.05986258759
+20	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2746336261	0.1453663739
+20	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.4319667868	0.1319667868
+20	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1732621747	0.07326217472
+20	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2588556112	0.09885561117
+20	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2989401644	0.1189401644
+20	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.1550633662	0.2649366338
+20	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2871408582	0.04714085819
+20	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3378902433	0.2378902433
+20	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3133980812	0.09339808123
+20	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.132806311	0.04719368899
+20	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.2159053644	0.2840946356
+20	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3448811813	0.09511881865
+20	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.149011503	0.03098849697
+20	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.3523023816	0.2523023816
+20	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1538049341	0.1261950659
+20	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3403264151	0.1203264151
+20	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1186064152	0.2813935848
+20	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2377419473	0.02225805269
+20	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3033252224	0.1833252224
+20	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1792030077	0.05920300769
+20	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.451272272	0.291272272
+20	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1664384577	0.3735615423
+20	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2030862626	0.02308626259
+20	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1818515544	0.02185155438
+20	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2322484277	0.1322484277
+20	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.1531382782	0.04686172184
+20	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.4327617397	0.1072382603
+20	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.5102442355	0.05024423553
+20	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.1591385591	0.08086144087
+20	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.1194076506	0.01940765061
+20	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.2112095547	0.01120955473
+20	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.06528981418	0.1347101858
+20	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.2305020132	0.2494979868
+20	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.5598244956	0.3398244956
+20	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1443836771	0.04438367708
+21	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2561835566	0.1561835566
+21	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1734687363	0.05346873633
+21	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.3001387996	0.1998612004
+21	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2702089075	0.009791092496
+21	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2016137059	0.1216137059
+21	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1885210394	0.008521039367
+21	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.3360782131	0.1160782131
+21	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2737870416	0.2462129584
+21	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.1646686086	0.2553313914
+21	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2052428913	0.03475710868
+21	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.2689143382	0.1889143382
+21	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3611741619	0.1011741619
+21	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.1769238723	0.02307612769
+21	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.4320585686	0.02794143139
+21	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.0657168081	0.1742831919
+21	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.325300751	0.225300751
+21	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.2283719136	0.04837191365
+21	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.2133478144	0.1333478144
+21	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.186376083	0.02637608299
+21	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3719041889	0.2080958111
+21	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.2258104626	0.08581046265
+21	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2582735691	0.1582735691
+21	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3159351244	0.2440648756
+21	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.1999808438	1.915623986e-05
+21	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3153828179	0.1646171821
+21	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1854153058	0.01458469421
+21	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1689200705	0.08892007055
+21	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.3302818057	0.09028180573
+21	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1614423593	0.01855764075
+21	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.3200134466	0.09998655343
+21	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3626232821	0.06262328213
+21	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.155920912	0.05592091205
+21	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2505123994	0.0905123994
+21	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2262583928	0.04625839283
+21	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2716978822	0.1483021178
+21	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2515313255	0.01153132554
+21	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3736832482	0.2736832482
+21	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2786767344	0.05867673439
+21	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1916136534	0.01161365339
+21	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.156026364	0.343973636
+21	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.362246223	0.07775377699
+21	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2968078872	0.1168078872
+21	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.1601057595	0.06010575955
+21	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1808401302	0.09915986975
+21	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2497925693	0.02979256928
+21	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.240654143	0.159345857
+21	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1426297934	0.1173702066
+21	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3669234943	0.2469234943
+21	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1004563573	0.01954364266
+21	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.4009331007	0.2409331007
+21	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.2185994026	0.3214005974
+21	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2800111394	0.1000111394
+21	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.06835202517	0.09164797483
+21	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2559304317	0.1559304317
+21	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2870773593	0.08707735925
+21	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3886401838	0.1513598162
+21	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.3159730371	0.1440269629
+21	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.349626983	0.109626983
+21	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.1615301472	0.06153014721
+21	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1728698326	0.02713016737
+21	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.3262645093	0.1262645093
+21	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.4100637293	0.06993627072
+21	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.1825304751	0.0374695249
+21	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.08114128637	0.01885871363
+22	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.4216926394	0.3216926394
+22	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2061465539	0.08614655385
+22	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.195420924	0.304579076
+22	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.1767398827	0.1032601173
+22	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3773562738	0.2973562738
+22	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.182472311	0.002472311006
+22	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.2227829483	0.00278294827
+22	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2173884669	0.3026115331
+22	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.4217227011	0.00172270114
+22	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2810751219	0.04107512186
+22	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.07632633319	0.003673666808
+22	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2208758438	0.03912415619
+22	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2358373176	0.03583731763
+22	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.1099024385	0.3500975615
+22	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.4111403327	0.1711403327
+22	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2431199112	0.1431199112
+22	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.301219107	0.121219107
+22	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1190042138	0.03900421379
+22	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2803488404	0.1203488404
+22	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.2994278388	0.2805721612
+22	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.2667845272	0.1267845272
+22	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2017263027	0.1017263027
+22	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3314510826	0.2285489174
+22	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2000380876	3.808757591e-05
+22	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.1355441843	0.3444558157
+22	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1701791927	0.02982080726
+22	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.3415025396	0.2615025396
+22	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.3527740833	0.1127740833
+22	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.2289577618	0.04895776177
+22	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.3398755774	0.08012442256
+22	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.2635365427	0.03646345726
+22	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1676301181	0.06763011806
+22	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.262324335	0.102324335
+22	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2555665775	0.0755665775
+22	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2118656926	0.2081343074
+22	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2702433949	0.03024339486
+22	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.4293504074	0.3293504074
+22	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.1940048721	0.02599512793
+22	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1679164108	0.01208358923
+22	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.2087283098	0.2912716902
+22	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3522034453	0.08779655468
+22	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2791340017	0.09913400174
+22	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.1559498127	0.05594981271
+22	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.2127127402	0.06728725977
+22	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2456572714	0.02565727141
+22	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1874887555	0.2125112445
+22	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2805227534	0.0205227534
+22	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2863312197	0.1663312197
+22	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.2590767952	0.1390767952
+22	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3933244253	0.2333244253
+22	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1483424247	0.3916575753
+22	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.1992563547	0.01925635475
+22	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1096928963	0.05030710366
+22	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2687997933	0.1687997933
+22	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2061446844	0.006144684419
+22	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.4153626259	0.1246373741
+22	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.3292622902	0.1307377098
+22	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2756986775	0.03569867747
+22	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2228466537	0.1228466537
+22	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1721923786	0.02780762142
+22	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1185434278	0.08145657216
+22	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.5142830984	0.03428309845
+22	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.254398143	0.03439814301
+22	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1127753307	0.0127753307
+23	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2292944733	0.1292944733
+23	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2131994778	0.0931994778
+23	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2856051995	0.2143948005
+23	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2719008494	0.008099150603
+23	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3595606723	0.2795606723
+23	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1873671805	0.007367180479
+23	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.2478909998	0.02789099981
+23	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2051811474	0.3148188526
+23	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.19583726	0.22416274
+23	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2120831582	0.02791684183
+23	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.231540864	0.151540864
+23	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3605387179	0.1005387179
+23	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2792165876	0.07921658755
+23	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2914397275	0.1685602725
+23	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1156861601	0.1243138399
+23	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.3136575249	0.2136575249
+23	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1707695883	0.00923041175
+23	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1175049962	0.03750499616
+23	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.3012816958	0.1412816958
+23	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.4104437197	0.1695562803
+23	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1961822555	0.05618225548
+23	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2497131879	0.1497131879
+23	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.2875039698	0.2724960302
+23	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2666005868	0.06660058679
+23	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3652790594	0.1147209406
+23	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1807658194	0.01923418063
+23	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2028847402	0.1228847402
+23	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2510703811	0.01107038108
+23	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.2417401152	0.06174011525
+23	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2436574271	0.1763425729
+23	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3568510615	0.05685106151
+23	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1577513962	0.05775139615
+23	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2327547545	0.07275475449
+23	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.1667657591	0.0132342409
+23	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2724953384	0.1475046616
+23	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.327984148	0.08798414804
+23	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.4137004621	0.3137004621
+23	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2572747006	0.03727470062
+23	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1471061548	0.03289384519
+23	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1819186825	0.3180813175
+23	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.4134798869	0.02652011314
+23	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1647499457	0.01525005426
+23	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2250665391	0.1250665391
+23	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1967036283	0.0832963717
+23	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2499117196	0.02991171961
+23	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.2511697717	0.1488302283
+23	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1452233898	0.1147766102
+23	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3536951189	0.2336951189
+23	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.08703628417	0.03296371583
+23	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.4833065035	0.3233065035
+23	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1708600594	0.3691399406
+23	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2587971529	0.07879715288
+23	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.07764866584	0.08235133416
+23	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.3012021044	0.2012021044
+23	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.1834470148	0.01655298521
+23	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.437702215	0.102297785
+23	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.3223406118	0.1376593882
+23	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.40292521	0.16292521
+23	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.1437110382	0.0437110382
+23	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.13102314	0.06897686
+23	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.432160737	0.232160737
+23	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.2349785794	0.2450214206
+23	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2066868537	0.01331314627
+23	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1261738299	0.02617382992
+24	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.3620635069	0.2620635069
+24	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1644986134	0.04449861336
+24	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.243270658	0.256729342
+24	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2301672217	0.04983277825
+24	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3310784487	0.2510784487
+24	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.0922818663	0.0877181337
+24	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.3224255799	0.1024255799
+24	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2542141051	0.2657858949
+24	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.2154793559	0.2045206441
+24	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2930821982	0.05308219818
+24	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.2063595439	0.1263595439
+24	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.285078902	0.02507890205
+24	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.3832962657	0.1832962657
+24	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.239214682	0.220785318
+24	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1383148993	0.1016851007
+24	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.239174153	0.139174153
+24	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.166781378	0.01321862198
+24	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1798220755	0.0998220755
+24	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.3502109859	0.1902109859
+24	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3031855606	0.2768144394
+24	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1846711281	0.04467112806
+24	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.202896777	0.102896777
+24	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3567691357	0.2032308643
+24	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2556629593	0.05566295926
+24	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.396053031	0.08394696896
+24	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1526166473	0.04738335274
+24	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1946888239	0.1146888239
+24	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2566414978	0.01664149784
+24	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1424893051	0.03751069488
+24	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.1761856649	0.2438143351
+24	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.4575906214	0.1575906214
+24	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.2237344086	0.1237344086
+24	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2388365182	0.0788365182
+24	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.1596269515	0.02037304845
+24	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.297354276	0.122645724
+24	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3041822543	0.06418225427
+24	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3745271572	0.2745271572
+24	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3158945731	0.09589457306
+24	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1436129589	0.03638704111
+24	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1659653108	0.3340346892
+24	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.4221858076	0.01781419236
+24	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1652887537	0.01471124625
+24	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2380241464	0.1380241464
+24	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1745012923	0.1054987077
+24	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3548376837	0.1348376837
+24	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1663499403	0.2336500597
+24	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1977865127	0.06221348733
+24	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2810258633	0.1610258633
+24	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1548178531	0.03481785314
+24	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3915504795	0.2315504795
+24	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1902650404	0.3497349596
+24	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.263366627	0.083366627
+24	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1682242964	0.008224296428
+24	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.276018601	0.176018601
+24	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2519704676	0.05197046757
+24	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.303786635	0.236213365
+24	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.378859761	0.08114023899
+24	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2651443849	0.02514438493
+24	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.1487566093	0.04875660933
+24	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.2072392447	0.007239244727
+24	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1278785927	0.07212140735
+24	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.3742523899	0.1057476101
+24	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2723123629	0.0523123629
+24	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.2255566545	0.1255566545
+25	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.3505964644	0.2505964644
+25	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.191162797	0.07116279702
+25	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2993251872	0.2006748128
+25	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.1589155514	0.1210844486
+25	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.417792766	0.337792766
+25	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1958515947	0.01585159467
+25	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.2775449637	0.05754496367
+25	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1088106756	0.4111893244
+25	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.3414769615	0.0785230385
+25	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.1420691937	0.09793080634
+25	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.2738539564	0.1938539564
+25	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.2425998885	0.01740011155
+25	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.458998586	0.258998586
+25	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2641269049	0.1958730951
+25	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.03582614452	0.2041738555
+25	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2410483645	0.1410483645
+25	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.2534454952	0.07344549525
+25	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.290070579	0.210070579
+25	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2528049776	0.09280497762
+25	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.2036789481	0.3763210519
+25	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1189480393	0.02105196069
+25	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.3323323317	0.2323323317
+25	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.4458556289	0.1141443711
+25	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.1028640001	0.0971359999
+25	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3197783924	0.1602216076
+25	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1609993715	0.03900062847
+25	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1273704056	0.04737040563
+25	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.3918518304	0.1518518304
+25	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1331630649	0.04683693513
+25	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.3313587411	0.08864125893
+25	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3611412436	0.06114124355
+25	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1743369505	0.0743369505
+25	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.3271853325	0.1671853325
+25	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2971091657	0.1171091657
+25	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.1750775986	0.2449224014
+25	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2006279033	0.03937209673
+25	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.4141755068	0.3141755068
+25	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2134885136	0.006511486448
+25	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.2354689065	0.05546890652
+25	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1368670731	0.3631329269
+25	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.4412951922	0.001295192198
+25	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2262857096	0.04628570956
+25	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2140240436	0.1140240436
+25	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1183950547	0.1616049453
+25	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2023127778	0.0176872222
+25	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1106039884	0.2893960116
+25	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2582639407	0.001736059296
+25	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.4288192931	0.3088192931
+25	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1314170377	0.01141703766
+25	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.4668253833	0.3068253833
+25	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.158401616	0.381598384
+25	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2433559631	0.0633559631
+25	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1663903497	0.006390349693
+25	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.1421864643	0.04218646432
+25	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.208371985	0.008371984992
+25	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.483051201	0.05694879901
+25	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.5318752828	0.07187528285
+25	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.1987774504	0.04122254962
+25	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.180612904	0.08061290405
+25	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.08873436273	0.1112656373
+25	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.04474720421	0.1552527958
+25	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.5765634856	0.09656348558
+25	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.270137041	0.050137041
+25	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1085522692	0.008552269206
+26	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.3318802866	0.2318802866
+26	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.1292033141	0.009203314056
+26	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2740668302	0.2259331698
+26	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2648495692	0.0151504308
+26	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2137480384	0.1337480384
+26	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1359979906	0.04400200935
+26	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.4409008823	0.2209008823
+26	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2093530887	0.3106469113
+26	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.1317746008	0.2882253992
+26	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.3201196932	0.08011969321
+26	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1849484965	0.1049484965
+26	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3631572095	0.1031572095
+26	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.1382032173	0.06179678266
+26	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2949073913	0.1650926087
+26	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1482030628	0.09179693724
+26	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.4186863286	0.3186863286
+26	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.175820721	0.004179279044
+26	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.2092565946	0.1292565946
+26	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2831642184	0.1231642184
+26	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.331758466	0.248241534
+26	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.266942856	0.126942856
+26	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2875203754	0.1875203754
+26	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.2329713316	0.3270286684
+26	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.212565437	0.01256543696
+26	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.196747137	0.283252863
+26	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.2675404675	0.06754046754
+26	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2340914377	0.1540914377
+26	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.3016209578	0.06162095777
+26	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.16160835	0.01839165
+26	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.3088785235	0.1111214765
+26	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.4073383536	0.1073383536
+26	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1221747729	0.02217477291
+26	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.1478704313	0.01212956867
+26	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2059330192	0.02593301919
+26	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.3237926892	0.09620731081
+26	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3224038603	0.08240386029
+26	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.5110052273	0.4110052273
+26	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2538898487	0.0338898487
+26	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1144180558	0.06558194423
+26	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1206868682	0.3793131318
+26	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.4532353584	0.01323535839
+26	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1967150074	0.01671500736
+26	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2049704663	0.1049704663
+26	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.145079168	0.134920832
+26	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3365858454	0.1165858454
+26	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1136334563	0.2863665437
+26	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1250890611	0.1349109389
+26	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.4246916371	0.3046916371
+26	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1244823052	0.00448230521
+26	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.4309804287	0.2709804287
+26	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.05038667911	0.4896133209
+26	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.394150587	0.214150587
+26	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.08097751987	0.07902248013
+26	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.3482423953	0.2482423953
+26	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.1819039741	0.0180960259
+26	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3888761107	0.1511238893
+26	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.5336355009	0.07363550089
+26	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.2135881063	0.02641189374
+26	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2081590816	0.1081590816
+26	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.04461731125	0.1553826887
+26	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1757744716	0.02422552844
+26	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.2202123835	0.2597876165
+26	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.5635071675	0.3435071675
+26	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.04050597741	0.05949402259
+27	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2873061951	0.1873061951
+27	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2494304809	0.1294304809
+27	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.1990624561	0.3009375439
+27	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.264200868	0.01579913204
+27	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3837865393	0.3037865393
+27	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.1609627563	0.01903724375
+27	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.2957195345	0.0757195345
+27	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1595311699	0.3604688301
+27	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.3811696114	0.03883038864
+27	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.1145116515	0.1254883485
+27	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.2374203482	0.1574203482
+27	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.266898389	0.006898388999
+27	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2957739881	0.09577398811
+27	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2637467827	0.1962532173
+27	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1503980725	0.08960192746
+27	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2900811566	0.1900811566
+27	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1978903581	0.01789035812
+27	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1899696235	0.1099696235
+27	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2830343983	0.1230343983
+27	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.32910562	0.25089438
+27	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.2296132788	0.08961327882
+27	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.3258519425	0.2258519425
+27	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.2451567774	0.3148432226
+27	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.1993780012	0.0006219987723
+27	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.2700804598	0.2099195402
+27	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1759088814	0.02409111857
+27	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1907286323	0.1107286323
+27	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.3632820265	0.1232820265
+27	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.2470963301	0.06709633007
+27	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.2804382981	0.1395617019
+27	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3107813476	0.01078134761
+27	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1616840242	0.06168402418
+27	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.3055421389	0.1455421389
+27	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.1437960902	0.03620390982
+27	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2397361711	0.1802638289
+27	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3109255998	0.0709255998
+27	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.2768124771	0.1768124771
+27	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2656974329	0.04569743288
+27	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.2354156758	0.05541567578
+27	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.2220744142	0.2779255858
+27	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.444852847	0.004852846981
+27	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2165949374	0.0365949374
+27	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.1934809182	0.09348091818
+27	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1450712974	0.1349287026
+27	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.3674265398	0.1474265398
+27	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.2411751347	0.1588248653
+27	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1501685298	0.1098314702
+27	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.2412297957	0.1212297957
+27	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.3100177799	0.1900177799
+27	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.2536955886	0.09369558862
+27	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1553077487	0.3846922513
+27	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2809788827	0.1009788827
+27	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1982847601	0.03828476009
+27	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2814082443	0.1814082443
+27	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.1468725627	0.05312743735
+27	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.373434433	0.166565567
+27	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.1322498034	0.3277501966
+27	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.5368435094	0.2968435094
+27	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2244812883	0.1244812883
+27	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1064253988	0.09357460115
+27	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1519341114	0.04806588863
+27	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.4664163266	0.0135836734
+27	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2144598886	0.005540111411
+27	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1671896734	0.06718967344
+28	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.2066019424	0.1066019424
+28	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2445115726	0.1245115726
+28	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.3271054998	0.1728945002
+28	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.2217809853	0.0582190147
+28	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2251725978	0.1451725978
+28	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.08334352583	0.09665647417
+28	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.5300090711	0.3100090711
+28	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1614748053	0.3585251947
+28	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.3667861778	0.0532138222
+28	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2353574338	0.004642566228
+28	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.06216148735	0.01783851265
+28	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3356949011	0.07569490107
+28	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.3838340324	0.1838340324
+28	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2577608338	0.2022391662
+28	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.051552987	0.188447013
+28	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.3068521468	0.2068521468
+28	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.3043579842	0.1243579842
+28	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1357213956	0.05572139558
+28	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.2431488746	0.08314887461
+28	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3167717456	0.2632282544
+28	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.1494355916	0.009435591617
+28	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.1835735009	0.08357350094
+28	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.4450875404	0.1149124596
+28	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2219033671	0.02190336706
+28	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.2140058362	0.2659941638
+28	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.2028384089	0.002838408899
+28	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2528749337	0.1728749337
+28	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.3302808212	0.09028082121
+28	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1955624132	0.01556241317
+28	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.3333888509	0.08661114912
+28	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3485110346	0.04851103455
+28	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1225377014	0.02253770139
+28	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.28009297	0.12009297
+28	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2501503867	0.07015038673
+28	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.1809594817	0.2390405183
+28	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.2887971615	0.04879716149
+28	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.3668400916	0.2668400916
+28	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.2737268691	0.05372686906
+28	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1957534508	0.01575345084
+28	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1636795885	0.3363204115
+28	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.3657077927	0.07429220733
+28	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.2073484297	0.0273484297
+28	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.2601671056	0.1601671056
+28	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.166776672	0.113223328
+28	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2525979909	0.03259799093
+28	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1899317599	0.2100682401
+28	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1570260311	0.1029739689
+28	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.4004442181	0.2804442181
+28	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.2003230801	0.08032308011
+28	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3269251785	0.1669251785
+28	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1951684486	0.3448315514
+28	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2775832928	0.09758329276
+28	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.07602067784	0.08397932216
+28	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2275163014	0.1275163014
+28	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2792213093	0.07922130932
+28	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.4172417115	0.1227582885
+28	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.2519306904	0.2080693096
+28	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.394292939	0.154292939
+28	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2295091322	0.1295091322
+28	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1242672384	0.07573276156
+28	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.2890662853	0.08906628534
+28	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.4086258531	0.07137414692
+28	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.1974054363	0.02259456375
+28	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1049024253	0.004902425336
+29	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.253778546	0.153778546
+29	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.112262844	0.007737155957
+29	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.3169330024	0.1830669976
+29	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.3170256076	0.03702560761
+29	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.3442309141	0.2642309141
+29	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.08122085051	0.09877914949
+29	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.4517121217	0.2317121217
+29	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.1228361137	0.3971638863
+29	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.216939074	0.203060926
+29	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2207844388	0.01921556117
+29	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1468125387	0.06681253868
+29	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.4154639485	0.1554639485
+29	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.2008284809	0.0008284809412
+29	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.3992507121	0.06074928792
+29	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1003315307	0.1396684693
+29	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.2995892763	0.1995892763
+29	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1378434661	0.04215653395
+29	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.1109662954	0.03096629537
+29	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.3995934533	0.2395934533
+29	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.3515967853	0.2284032147
+29	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.13230753	0.007692469975
+29	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2180104022	0.1180104022
+29	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3595735009	0.2004264991
+29	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2901085669	0.09010856694
+29	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.4957650936	0.01576509363
+29	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.1651715295	0.03482847049
+29	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.1772108897	0.0972108897
+29	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.1618524872	0.07814751284
+29	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.1273853816	0.05261461838
+29	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.1953992086	0.2246007914
+29	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.5001282084	0.2001282084
+29	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1770872014	0.07708720141
+29	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.2068492552	0.04684925522
+29	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2022233267	0.02222332673
+29	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.2759714328	0.1440285672
+29	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3149559853	0.07495598528
+29	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.2618846395	0.1618846395
+29	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3605070035	0.1405070035
+29	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.1829697546	0.002969754568
+29	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1946386024	0.3053613976
+29	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.4670193372	0.02701933717
+29	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1454767825	0.03452321753
+29	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.1868173709	0.08681737093
+29	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.2006865094	0.07931349057
+29	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2708242359	0.05082423593
+29	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.2425442452	0.1574557548
+29	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.1640373501	0.09596264986
+29	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3225941687	0.2025941687
+29	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.1712365461	0.05123654613
+29	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.3125236469	0.1525236469
+29	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.159068471	0.380931529
+29	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.357171336	0.177171336
+29	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.26303134	0.10303134
+29	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.1966433268	0.0966433268
+29	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2631478319	0.06314783194
+29	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.2771775013	0.2628224987
+29	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.1693079663	0.2906920337
+29	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.4698941096	0.2298941096
+29	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2742171017	0.1742171017
+29	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.08658082237	0.1134191776
+29	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1464093132	0.05359068677
+29	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.4263384211	0.05366157889
+29	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.2500104374	0.03001043737
+29	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.1772418283	0.0772418283
+30	1	1	J1 P11	1	1	1	1	3	neither	neither directly observed	0.1	0.1558299511	0.05582995113
+30	1	2	J1 P12	1	1	2	1	4	target	target observed	0.12	0.2935690769	0.1735690769
+30	1	3	J1 P13	1	1	3	1	17	target	target observed	0.5	0.2834380259	0.2165619741
+30	1	4	J1 P14	1	1	4	1	19	neither	neither directly observed	0.28	0.267162946	0.012837054
+30	1	5	J1 P21	1	2	1	2	3	source	source observed	0.08	0.2587390631	0.1787390631
+30	1	6	J1 P22	1	2	2	2	4	both	source+target observed	0.18	0.100485808	0.07951419199
+30	1	7	J1 P23	1	2	3	2	17	both	source+target observed	0.22	0.4384823568	0.2184823568
+30	1	8	J1 P24	1	2	4	2	19	source	source observed	0.52	0.2022927721	0.3177072279
+30	1	9	J1 P31	1	3	1	18	3	neither	neither directly observed	0.42	0.3269444347	0.09305556533
+30	1	10	J1 P32	1	3	2	18	4	target	target observed	0.24	0.2215319665	0.01846803355
+30	1	11	J1 P33	1	3	3	18	17	target	target observed	0.08	0.1037645668	0.02376456675
+30	1	12	J1 P34	1	3	4	18	19	neither	neither directly observed	0.26	0.3477590321	0.08775903212
+30	1	13	J1 P41	1	4	1	20	3	neither	neither directly observed	0.2	0.3102345834	0.1102345834
+30	1	14	J1 P42	1	4	2	20	4	target	target observed	0.46	0.2643159019	0.1956840981
+30	1	15	J1 P43	1	4	3	20	17	target	target observed	0.24	0.1171827245	0.1228172755
+30	1	16	J1 P44	1	4	4	20	19	neither	neither directly observed	0.1	0.3082667901	0.2082667901
+30	1	17	J2 P11	2	1	1	5	7	target	target observed	0.18	0.1728256307	0.007174369305
+30	1	18	J2 P12	2	1	2	5	8	neither	neither directly observed	0.08	0.185099019	0.105099019
+30	1	19	J2 P13	2	1	3	5	18	neither	neither directly observed	0.16	0.3477642923	0.1877642923
+30	1	20	J2 P14	2	1	4	5	21	target	target observed	0.58	0.294311058	0.285688942
+30	1	21	J2 P21	2	2	1	6	7	target	target observed	0.14	0.117446151	0.022553849
+30	1	22	J2 P22	2	2	2	6	8	neither	neither directly observed	0.1	0.2710871506	0.1710871506
+30	1	23	J2 P23	2	2	3	6	18	neither	neither directly observed	0.56	0.3979461771	0.1620538229
+30	1	24	J2 P24	2	2	4	6	21	target	target observed	0.2	0.2135205212	0.01352052123
+30	1	25	J2 P31	2	3	1	17	7	both	source+target observed	0.48	0.3493959906	0.1306040094
+30	1	26	J2 P32	2	3	2	17	8	source	source observed	0.2	0.137021423	0.06297857704
+30	1	27	J2 P33	2	3	3	17	18	source	source observed	0.08	0.2297161558	0.1497161558
+30	1	28	J2 P34	2	3	4	17	21	both	source+target observed	0.24	0.2838664306	0.04386643057
+30	1	29	J2 P41	2	4	1	22	7	target	target observed	0.18	0.2319872535	0.05198725351
+30	1	30	J2 P42	2	4	2	22	8	neither	neither directly observed	0.42	0.1952956939	0.2247043061
+30	1	31	J2 P43	2	4	3	22	18	neither	neither directly observed	0.3	0.3994459802	0.09944598019
+30	1	32	J2 P44	2	4	4	22	21	target	target observed	0.1	0.1732710724	0.07327107242
+30	1	33	J3 P11	3	1	1	9	11	source	source observed	0.16	0.249605412	0.08960541202
+30	1	34	J3 P12	3	1	2	9	12	source	source observed	0.18	0.2353875229	0.05538752291
+30	1	35	J3 P13	3	1	3	9	20	source	source observed	0.42	0.1887303722	0.2312696278
+30	1	36	J3 P14	3	1	4	9	23	source	source observed	0.24	0.3262766929	0.08627669285
+30	1	37	J3 P21	3	2	1	10	11	neither	neither directly observed	0.1	0.2710286545	0.1710286545
+30	1	38	J3 P22	3	2	2	10	12	neither	neither directly observed	0.22	0.3208551649	0.1008551649
+30	1	39	J3 P23	3	2	3	10	20	neither	neither directly observed	0.18	0.2374869346	0.05748693461
+30	1	40	J3 P24	3	2	4	10	23	neither	neither directly observed	0.5	0.1706292459	0.3293707541
+30	1	41	J3 P31	3	3	1	19	11	neither	neither directly observed	0.44	0.5076623527	0.0676623527
+30	1	42	J3 P32	3	3	2	19	12	neither	neither directly observed	0.18	0.1409574168	0.03904258318
+30	1	43	J3 P33	3	3	3	19	20	neither	neither directly observed	0.1	0.1817426949	0.08174269494
+30	1	44	J3 P34	3	3	4	19	23	neither	neither directly observed	0.28	0.1696375355	0.1103624645
+30	1	45	J3 P41	3	4	1	24	11	source	source observed	0.22	0.2279480257	0.007948025719
+30	1	46	J3 P42	3	4	2	24	12	source	source observed	0.4	0.1983206659	0.2016793341
+30	1	47	J3 P43	3	4	3	24	20	source	source observed	0.26	0.2180260555	0.04197394448
+30	1	48	J3 P44	3	4	4	24	23	source	source observed	0.12	0.3557052528	0.2357052528
+30	1	49	J4 P11	4	1	1	13	15	target	target observed	0.12	0.2313527238	0.1113527238
+30	1	50	J4 P12	4	1	2	13	16	neither	neither directly observed	0.16	0.305471045	0.145471045
+30	1	51	J4 P13	4	1	3	13	22	neither	neither directly observed	0.54	0.1988415029	0.3411584971
+30	1	52	J4 P14	4	1	4	13	24	target	target observed	0.18	0.2643347282	0.08433472819
+30	1	53	J4 P21	4	2	1	14	15	both	source+target observed	0.16	0.1809420611	0.02094206108
+30	1	54	J4 P22	4	2	2	14	16	source	source observed	0.1	0.2900092713	0.1900092713
+30	1	55	J4 P23	4	2	3	14	22	source	source observed	0.2	0.2100186351	0.01001863512
+30	1	56	J4 P24	4	2	4	14	24	both	source+target observed	0.54	0.3190300325	0.2209699675
+30	1	57	J4 P31	4	3	1	21	15	both	source+target observed	0.46	0.2491755996	0.2108244004
+30	1	58	J4 P32	4	3	2	21	16	source	source observed	0.24	0.416496391	0.176496391
+30	1	59	J4 P33	4	3	3	21	22	source	source observed	0.1	0.2004204811	0.1004204811
+30	1	60	J4 P34	4	3	4	21	24	both	source+target observed	0.2	0.1339075283	0.06609247174
+30	1	61	J4 P41	4	4	1	23	15	target	target observed	0.2	0.1320461642	0.06795383585
+30	1	62	J4 P42	4	4	2	23	16	neither	neither directly observed	0.48	0.4684018601	0.01159813986
+30	1	63	J4 P43	4	4	3	23	22	neither	neither directly observed	0.22	0.1979933322	0.02200666777
+30	1	64	J4 P44	4	4	4	23	24	target	target observed	0.1	0.2015586435	0.1015586435

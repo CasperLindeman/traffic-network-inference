@@ -1,0 +1,11 @@
+quantity	value
+horizon_seconds	180.0
+final_time_seconds	180.0
+roads	1348
+cells	15076
+truth_forward_seconds	20.6793837
+mean_forward_seconds	16.5792566
+mean_abs_cell_error	0.0030520071359722853
+rmse_cell_error	0.032698285428165136
+max_abs_cell_error	0.8371568899
+q95_abs_cell_error	2.660748875249647e-6

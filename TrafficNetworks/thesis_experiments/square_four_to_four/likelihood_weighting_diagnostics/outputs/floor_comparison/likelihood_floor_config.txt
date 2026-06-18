@@ -1,0 +1,17 @@
+Square multi-scenario likelihood floor comparison
+============================================
+regime: likelihood_floor_12x
+scenario count: 12
+horizon factor: 1
+ESMDA: 192 x 6
+seeds: 1,2,3
+floor fractions: 0.03,0.1,0.15
+
+The same observation seed is used for each floor on a given run seed.
+The floor changes only sigma_model used in the working likelihood.
+
+Outputs
+-------
+C:\Skole\V26\masteroppgave\github_code_master_thesis\TrafficNetworks\thesis_experiments\square_four_to_four\likelihood_weighting_diagnostics\sources\..\outputs\floor_comparison\likelihood_floor_seed_metrics.tsv
+C:\Skole\V26\masteroppgave\github_code_master_thesis\TrafficNetworks\thesis_experiments\square_four_to_four\likelihood_weighting_diagnostics\sources\..\outputs\floor_comparison\likelihood_floor_summary.tsv
+C:\Skole\V26\masteroppgave\github_code_master_thesis\TrafficNetworks\thesis_experiments\square_four_to_four\likelihood_weighting_diagnostics\figures\square_likelihood_floor_comparison.png

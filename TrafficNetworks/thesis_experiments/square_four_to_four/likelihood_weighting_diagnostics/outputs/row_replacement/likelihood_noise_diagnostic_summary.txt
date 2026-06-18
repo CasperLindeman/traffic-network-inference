@@ -1,0 +1,44 @@
+Likelihood and noise-weight diagnostic
+======================================
+Current hard floor fraction: 0.030
+Current floor value: 0.0024
+Observations at floor: 2 / 3456 (0.0006)
+Max/min sigma ratio: 33.3
+Max/min weight ratio: 1.11e+03
+Max absolute standardized true-noise residual: 73.9
+True-noise loss concentration top 1/5/10: 0.4536 / 0.5765 / 0.6011
+
+Alternative weighting checks
+----------------------------
+additive_floor_0p03  rows_where_swap_improves_loss= 4/16 mean_loss_improve=-0.02771 min=-0.2573 max= 0.001598
+additive_floor_0p10  rows_where_swap_improves_loss= 6/16 mean_loss_improve=-0.00667 min=-0.04267 max= 0.02887
+hard_floor_0p03      rows_where_swap_improves_loss= 4/16 mean_loss_improve=-0.04318 min=-0.4622 max= 0.001601
+hard_floor_0p05      rows_where_swap_improves_loss= 4/16 mean_loss_improve=-0.0272 min=-0.2504 max= 0.001601
+hard_floor_0p10      rows_where_swap_improves_loss= 7/16 mean_loss_improve=-0.007652 min=-0.0428 max= 0.02838
+hard_floor_0p15      rows_where_swap_improves_loss= 7/16 mean_loss_improve=-0.004026 min=-0.04559 max= 0.05692
+
+Largest standardized residuals under true parameters
+----------------------------------------------------
+rank  1 idx=2225 scen=8 road=17 cell=2 time=1.25 min y_true=0.2425 y_obs=0.0099 sigma=0.003149 r_true= 73.9 at_floor=false
+rank  2 idx=2888 scen=11 road=2 cell=17 time=0.50 min y_true=0.0650 y_obs=0.0035 sigma=0.0024 r_true= 25.6 at_floor=true
+rank  3 idx=2476 scen=9 road=15 cell=17 time=0.75 min y_true=0.0546 y_obs=0.0052 sigma=0.0024 r_true= 20.6 at_floor=true
+rank  4 idx=3203 scen=12 road=9 cell=11 time=0.25 min y_true=0.2536 y_obs=0.0446 sigma=0.01363 r_true= 15.3 at_floor=false
+rank  5 idx=1572 scen=6 road=7 cell=17 time=0.25 min y_true=0.1391 y_obs=0.0280 sigma=0.008719 r_true= 12.7 at_floor=false
+rank  6 idx=1680 scen=6 road=21 cell=13 time=1.00 min y_true=0.1249 y_obs=0.0300 sigma=0.009309 r_true= 10.2 at_floor=false
+rank  7 idx= 655 scen=3 road=14 cell=11 time=1.00 min y_true=0.1486 y_obs=0.0446 sigma=0.01363 r_true= 7.63 at_floor=false
+rank  8 idx= 778 scen=3 road=17 cell=5 time=0.75 min y_true=0.1065 y_obs=0.0342 sigma=0.01058 r_true= 6.83 at_floor=false
+
+Largest row-swap loss-contribution changes
+------------------------------------------
+J1 row 1 rank= 1 idx=2225 scen=8 road=17 cell=2 time=1.25 min delta_loss=-1930 post_r= 18.5 swap_r= 64.8 true_r= 73.9 sigma=0.003149
+J1 row 4 rank= 1 idx=2225 scen=8 road=17 cell=2 time=1.25 min delta_loss=-292.6 post_r= 18.5 swap_r= 30.4 true_r= 73.9 sigma=0.003149
+J1 row 2 rank= 1 idx=2225 scen=8 road=17 cell=2 time=1.25 min delta_loss=-221.1 post_r= 18.5 swap_r= 28 true_r= 73.9 sigma=0.003149
+J1 row 3 rank= 1 idx=2225 scen=8 road=17 cell=2 time=1.25 min delta_loss= 112.8 post_r= 18.5 swap_r= 10.8 true_r= 73.9 sigma=0.003149
+J4 row 2 rank= 1 idx=1145 scen=4 road=24 cell=2 time=1.75 min delta_loss=-14.46 post_r= 3.16 swap_r= 6.24 true_r= 4.82 sigma=0.02975
+J1 row 4 rank= 2 idx=2141 scen=8 road=4 cell=2 time=2.00 min delta_loss=-14.28 post_r= 2.73 swap_r= 6 true_r= 2.71 sigma=0.0428
+J1 row 1 rank= 2 idx=2802 scen=10 road=17 cell=5 time=1.25 min delta_loss=-12.73 post_r= 1.28 swap_r= 5.21 true_r= 5.66 sigma=0.0184
+J3 row 1 rank= 1 idx=1788 scen=7 road=9 cell=17 time=1.75 min delta_loss=-10.08 post_r= 1.47 swap_r= 4.73 true_r= 2.16 sigma=0.07031
+J3 row 1 rank= 2 idx=2652 scen=10 road=9 cell=17 time=1.75 min delta_loss=-9.947 post_r= 1.49 swap_r= 4.7 true_r= 1.51 sigma=0.05363
+J2 row 1 rank= 1 idx=2816 scen=10 road=17 cell=11 time=2.00 min delta_loss=-9.631 post_r=-0.945 swap_r= 4.49 true_r= 0.0735 sigma=0.05553
+J1 row 1 rank= 3 idx= 501 scen=2 road=17 cell=2 time=1.50 min delta_loss= 9.034 post_r=-4.25 swap_r= 0.188 true_r= 0.722 sigma=0.07912
+J3 row 1 rank= 3 idx= 284 scen=1 road=24 cell=11 time=1.75 min delta_loss=-8.921 post_r= 2.49 swap_r= 4.9 true_r= 2.41 sigma=0.03673

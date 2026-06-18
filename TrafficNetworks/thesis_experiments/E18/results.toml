@@ -1,0 +1,122 @@
+[experiment]
+name = "E18 corridor"
+description = "Pruned E18 corridor network with ESMDA and MAP turning-fraction inference."
+horizon_seconds = 180
+cell_length_m = 12
+
+[network]
+directed_road_segments = 1348
+finite_volume_cells = 15076
+rounded_total_length_km = 180.912
+original_total_length_km = 180.450263
+junction_nodes = 500
+roundabout_nodes = 33
+regular_junction_nodes = 467
+boundary_ports = 340
+upstream_boundary_conditions = 144
+multilane_roads = 127
+max_lanes = 7
+speed_limits_kmh = [30, 40, 50, 60, 80]
+
+[inverse_problem]
+sensor_roads = 14
+observation_times_seconds = [30, 60, 90, 120, 150, 180]
+scalar_observations = 84
+target_nodes = 20
+turning_rows = 45
+turning_fractions = 142
+latent_logit_parameters = 97
+
+[priors]
+latent_logit_distribution = "independent Normal(0, 1.25^2)"
+turning_parameterization = "row-wise softmax"
+
+[noise]
+generated_noise_model = "flux-scaled Gaussian physical-density noise"
+generated_peak_sigma = 0.08
+likelihood_model = "componentwise Gaussian with flux-scaled sigma_i and floor"
+likelihood_floor_fraction = 0.15
+likelihood_absolute_floor = 0.001
+esmda_covariance_inflation = 1.02
+
+[[esmda_runs]]
+label = "64x2"
+ensemble_size = 64
+assimilation_steps = 2
+runtime_seconds = 2155.0620685
+forward_seconds = 20.3864158
+turning_rmse = 0.1846007754
+turning_mae = 0.1355771191
+mean_width_90 = 0.5812895231
+turning_coverage_90 = "130/142"
+fit_rmse = 0.0848765983
+predictive_rmse = 0.0093215297
+predictive_coverage_90 = "84/84"
+output_dir = "outputs/inference_64x2_180s"
+
+[[esmda_runs]]
+label = "128x4"
+ensemble_size = 128
+assimilation_steps = 4
+runtime_seconds = 8698.7868545
+forward_seconds = 23.0075209
+turning_rmse = 0.1837224211
+turning_mae = 0.1347171521
+mean_width_90 = 0.6186452266
+turning_coverage_90 = "130/142"
+fit_rmse = 0.0847716801
+predictive_rmse = 0.0088434432
+predictive_coverage_90 = "84/84"
+output_dir = "outputs/inference_128x4_180s"
+
+[[map_runs]]
+label = "L-BFGS MAP"
+optimizer = "Optim.jl L-BFGS"
+runtime_seconds = 9880.0052702
+time_limit_seconds = 9600.0
+iterations = 43
+converged = false
+objective_seconds = 17.8920646
+gradient_seconds = 207.8722448
+initial_loss = 86.5600420421
+final_loss = 74.1642310550
+initial_gradient_norm = 30.0736535602
+final_gradient_norm = 1.4491592533
+turning_rmse = 0.1735111016
+turning_mae = 0.1256098350
+fit_rmse = 0.0843158326
+predictive_rmse = 0.0050346057
+start_checkpoint = "outputs/lbfgs_prior_mean_backtracking_180s/lbfgs_best_checkpoint.tsv"
+output_dir = "outputs/lbfgs_checkpoint_backtracking_alpha0050_retry_180s"
+
+[final_state_error]
+source_run = "128x4"
+time_seconds = 180
+mean_abs_cell_error = 0.0030520071
+rmse_cell_error = 0.0326982854
+max_abs_cell_error = 0.8371568899
+q95_abs_cell_error = 0.0000026607
+output_dir = "outputs/inference_128x4_180s/final_state_error"
+
+[figures]
+network_map = "figures/e18_pruned_graph_map_overlay.png"
+inference_overview = "figures/e18_pruned_inference_overview.png"
+target_area_west = "figures/e18_target_area_west.png"
+target_area_rb18_rb20 = "figures/e18_target_area_rb18_rb20.png"
+target_area_rb23_rb24 = "figures/e18_target_area_rb23_rb24.png"
+target_area_east = "figures/e18_target_area_east.png"
+turning_recovery_128x4 = "figures/e18_turning_fraction_recovery_128x4.png"
+final_state_error_west = "figures/e18_final_state_abs_error_west.png"
+final_state_error_rb18_rb20 = "figures/e18_final_state_abs_error_rb18_rb20.png"
+final_state_error_rb23_rb24 = "figures/e18_final_state_abs_error_rb23_rb24.png"
+final_state_error_east = "figures/e18_final_state_abs_error_east.png"
+
+[sources]
+api_json_dir = "sources/source_json"
+graph_builder = "sources/build_e18_large_graph.py"
+network_builder = "sources/build_e18_large_pruned_simulation_network.py"
+inference_runner = "sources/run_e18_large_small_inference.jl"
+map_runner = "sources/run_e18_large_small_inference.jl"
+diagnostic_plotter = "sources/plot_e18_large_inference_diagnostics.py"
+final_state_error_exporter = "sources/export_e18_large_final_state_error.jl"
+final_state_error_plotter = "sources/plot_e18_large_final_state_error.py"

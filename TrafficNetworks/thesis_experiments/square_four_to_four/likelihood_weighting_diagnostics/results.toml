@@ -1,0 +1,142 @@
+[experiment]
+id = "square_four_to_four_likelihood_weighting_diagnostics"
+name = "Square four-to-four network likelihood weighting diagnostics"
+figure_labels = [
+    "fig:square_turning_row_swap_fit",
+    "fig:square_likelihood_floor_comparison",
+]
+sources = [
+    "run.jl",
+    "plots.jl",
+    "sources/likelihood_floor_comparison.jl",
+    "sources/data_budget_context.jl",
+    "sources/turning_recovery_diagnostics.jl",
+]
+
+[setup.row_replacement]
+scenario_count = 12
+horizon_factor = 1
+observation_count = 3456
+ensemble_members = 192
+assimilation_steps = 6
+seed = 1
+observation_seed = 1
+esmda_seed = 100001
+physical_peak_noise_sigma = 0.08
+sigma_floor_fraction = 0.03
+prior_scale = 1.25
+
+[setup.floor_comparison]
+scenario_count = 12
+horizon_factor = 1
+observation_count = 3456
+ensemble_members = 192
+assimilation_steps = 6
+seeds = [1, 2, 3]
+floor_fractions = [0.03, 0.10, 0.15]
+
+[results.row_replacement]
+row_count = 16
+clean_prediction_improved_count = 5
+weighted_noisy_fit_improved_count = 4
+post_fit_normalized_rmse = 1.485104668
+truth_fit_normalized_rmse = 1.865628214
+
+[results.row_replacement.j1_row1]
+row_tv_error = 0.5552748191
+true_row = [0.100, 0.120, 0.500, 0.280]
+posterior_mean_row = [0.567, 0.208, 0.054, 0.171]
+post_truth_rmse = 0.03276594979
+swap_truth_rmse = 0.01186141418
+truth_rmse_improvement = 0.02090453561
+post_fit_normalized_rmse = 1.485104668
+swap_fit_normalized_rmse = 1.769150633
+fit_normalized_improvement = -0.2840459651
+
+[results.likelihood_weights.floor_0p03]
+sigma_min = 0.0024
+max_to_min_weight = 1111.110447
+observations_at_floor = 2
+observation_count = 3456
+max_abs_true_standardized_residual = 73.9
+true_loss_top1_fraction = 0.4535592831
+true_loss_top5_fraction = 0.5764638954
+
+[results.reweighting.hard_floor_0p03]
+row_count = 16
+weighted_noisy_fit_improved_count = 4
+mean_fit_normalized_improvement = -0.02731294554
+mean_loss_improvement = -0.0431802122
+
+[results.reweighting.hard_floor_0p10]
+row_count = 16
+weighted_noisy_fit_improved_count = 7
+mean_fit_normalized_improvement = -0.005578274107
+mean_loss_improvement = -0.007651656053
+
+[results.reweighting.hard_floor_0p15]
+row_count = 16
+weighted_noisy_fit_improved_count = 7
+mean_fit_normalized_improvement = -0.002898522943
+mean_loss_improvement = -0.004026269495
+
+[results.floor_comparison.hard_floor_0p03]
+seed_count = 3
+max_to_min_weight = 1111.110488
+turning_rmse_mean = 0.1592391625
+turning_rmse_min = 0.1315901976
+turning_rmse_max = 0.1885734469
+final_state_rmse_all_mean = 0.03300797737
+normalized_fit_rmse_noisy_mean = 1.402451961
+turning_ci90_width_mean = 0.4554859402
+true_loss_top1_fraction_mean = 0.180567591
+
+[results.floor_comparison.hard_floor_0p10]
+seed_count = 3
+max_to_min_weight = 99.9999439
+turning_rmse_mean = 0.1555745263
+turning_rmse_min = 0.1345153751
+turning_rmse_max = 0.1738734904
+final_state_rmse_all_mean = 0.0290379031
+normalized_fit_rmse_noisy_mean = 1.314696615
+turning_ci90_width_mean = 0.460765809
+true_loss_top1_fraction_mean = 0.06083300885
+
+[results.floor_comparison.hard_floor_0p15]
+seed_count = 3
+max_to_min_weight = 44.44441951
+turning_rmse_mean = 0.1533321574
+turning_rmse_min = 0.1347476596
+turning_rmse_max = 0.1668277393
+final_state_rmse_all_mean = 0.0285376784
+normalized_fit_rmse_noisy_mean = 1.28118307
+turning_ci90_width_mean = 0.4619857835
+true_loss_top1_fraction_mean = 0.03671820505
+
+[outputs.row_replacement]
+fit_metrics = "outputs/row_replacement/turning_row_swap_fit_metrics.tsv"
+fit_summary = "outputs/row_replacement/turning_row_swap_fit_summary.txt"
+observed_road_metrics = "outputs/row_replacement/turning_row_swap_observed_road_metrics.tsv"
+likelihood_variant_metrics = "outputs/row_replacement/turning_row_swap_likelihood_variant_metrics.tsv"
+likelihood_variant_summary = "outputs/row_replacement/turning_row_swap_likelihood_variant_summary.tsv"
+loss_contributions = "outputs/row_replacement/turning_row_swap_loss_contributions.tsv"
+noise_weight_summary = "outputs/row_replacement/likelihood_noise_weight_summary.tsv"
+true_noise_outliers = "outputs/row_replacement/likelihood_true_noise_outliers.tsv"
+noise_diagnostic_summary = "outputs/row_replacement/likelihood_noise_diagnostic_summary.txt"
+turning_entry_metrics = "outputs/row_replacement/turning_entry_structure_metrics.tsv"
+turning_entry_group_summary = "outputs/row_replacement/turning_entry_structure_group_summary.tsv"
+turning_entry_large_misses = "outputs/row_replacement/turning_entry_large_misses_abs_gt_0p30.tsv"
+turning_entry_summary = "outputs/row_replacement/turning_entry_structure_summary.txt"
+turning_row_metrics = "outputs/row_replacement/turning_row_structure_metrics.tsv"
+turning_row_group_summary = "outputs/row_replacement/turning_row_structure_group_summary.tsv"
+
+[outputs.floor_comparison]
+summary = "outputs/floor_comparison/likelihood_floor_summary.tsv"
+seed_metrics = "outputs/floor_comparison/likelihood_floor_seed_metrics.tsv"
+config = "outputs/floor_comparison/likelihood_floor_config.txt"
+
+[figures.row_replacement]
+path = "figures/square_turning_row_swap_fit_improvement.png"
+
+[figures.floor_comparison]
+path = "figures/square_likelihood_floor_comparison.png"

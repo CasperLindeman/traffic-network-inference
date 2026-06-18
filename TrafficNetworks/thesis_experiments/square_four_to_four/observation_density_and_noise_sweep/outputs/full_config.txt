@@ -1,0 +1,16 @@
+experiment = joint observation density x noise full grid with L-BFGS MAP rows
+source = sources/density_noise_grid.jl
+regime = multi_scenario_12x
+scenario_count = 12
+noise_levels = 0.01,0.08,0.2,0.4
+noise_seeds = 1,2,3
+floor_fraction = 0.15
+densities = dense,sparse,minimal
+dense = 9 roads, 4 sensors per road
+sparse = 9 roads, 1 midpoint sensor per road
+minimal = roads 17,24, 1 midpoint sensor per road
+esmda = recomputed when missing, reused from the current output table when available
+map_optimizer = Optim.jl L-BFGS
+map_time_limit_seconds = 300.0
+prior_scale = 1.25
+note = thesis grid contains ESMDA and MAP/L-BFGS rows only
